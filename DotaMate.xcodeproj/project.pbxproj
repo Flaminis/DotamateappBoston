@@ -1,0 +1,1463 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		270047921D350C330076BC6B /* HeroChooseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 270047911D350C330076BC6B /* HeroChooseVC.swift */; };
+		270047961D3563E80076BC6B /* HeroChooseCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 270047951D3563E80076BC6B /* HeroChooseCVC.swift */; };
+		270047981D3643B80076BC6B /* GuideMakerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 270047971D3643B80076BC6B /* GuideMakerViewController.swift */; };
+		2700479A1D364A5E0076BC6B /* SpellTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 270047991D364A5E0076BC6B /* SpellTVC.swift */; };
+		2700479C1D364B5C0076BC6B /* HeroDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2700479B1D364B5C0076BC6B /* HeroDetail.swift */; };
+		2700480E1D3676730076BC6B /* .DS_Store in Resources */ = {isa = PBXBuildFile; fileRef = 2700479E1D3676730076BC6B /* .DS_Store */; };
+		2700480F1D3676730076BC6B /* Abaddon.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2700479F1D3676730076BC6B /* Abaddon.mp3 */; };
+		270048101D3676730076BC6B /* Alchemist.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 270047A01D3676730076BC6B /* Alchemist.mp3 */; };
+		270048111D3676730076BC6B /* Ancient Apparition.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 270047A11D3676730076BC6B /* Ancient Apparition.mp3 */; };
+		270048121D3676730076BC6B /* Anti-Mage.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 270047A21D3676730076BC6B /* Anti-Mage.mp3 */; };
+		270048131D3676730076BC6B /* Arc Warden.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 270047A31D3676730076BC6B /* Arc Warden.mp3 */; };
+		270048141D3676730076BC6B /* Axe.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 270047A41D3676730076BC6B /* Axe.mp3 */; };
+		270048151D3676730076BC6B /* Bane.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 270047A51D3676730076BC6B /* Bane.mp3 */; };
+		270048161D3676730076BC6B /* Batrider.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 270047A61D3676730076BC6B /* Batrider.mp3 */; };
+		270048171D3676730076BC6B /* Beastmaster.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 270047A71D3676730076BC6B /* Beastmaster.mp3 */; };
+		270048181D3676730076BC6B /* Bloodseeker.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 270047A81D3676730076BC6B /* Bloodseeker.mp3 */; };
+		270048191D3676730076BC6B /* Bounty Hunter.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 270047A91D3676730076BC6B /* Bounty Hunter.mp3 */; };
+		2700481A1D3676730076BC6B /* Brewmaster.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 270047AA1D3676730076BC6B /* Brewmaster.mp3 */; };
+		2700481B1D3676730076BC6B /* Bristleback.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 270047AB1D3676730076BC6B /* Bristleback.mp3 */; };
+		2700481C1D3676730076BC6B /* Broodmother.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 270047AC1D3676730076BC6B /* Broodmother.mp3 */; };
+		2700481D1D3676730076BC6B /* Centaur Warrunner.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 270047AD1D3676730076BC6B /* Centaur Warrunner.mp3 */; };
+		2700481E1D3676730076BC6B /* Chaos Knight.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 270047AE1D3676730076BC6B /* Chaos Knight.mp3 */; };
+		2700481F1D3676730076BC6B /* Chen.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 270047AF1D3676730076BC6B /* Chen.mp3 */; };
+		270048201D3676730076BC6B /* Clinkz.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 270047B01D3676730076BC6B /* Clinkz.mp3 */; };
+		270048211D3676730076BC6B /* Clockwerk.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 270047B11D3676730076BC6B /* Clockwerk.mp3 */; };
+		270048221D3676730076BC6B /* Crystal Maiden.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 270047B21D3676730076BC6B /* Crystal Maiden.mp3 */; };
+		270048231D3676730076BC6B /* Dark Seer.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 270047B31D3676730076BC6B /* Dark Seer.mp3 */; };
+		270048241D3676730076BC6B /* Dazzle.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 270047B41D3676730076BC6B /* Dazzle.mp3 */; };
+		270048251D3676730076BC6B /* Death Prophet.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 270047B51D3676730076BC6B /* Death Prophet.mp3 */; };
+		270048261D3676730076BC6B /* Disruptor.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 270047B61D3676730076BC6B /* Disruptor.mp3 */; };
+		270048271D3676730076BC6B /* Doom.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 270047B71D3676730076BC6B /* Doom.mp3 */; };
+		270048281D3676730076BC6B /* Dragon Knight.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 270047B81D3676730076BC6B /* Dragon Knight.mp3 */; };
+		270048291D3676730076BC6B /* Drow Ranger.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 270047B91D3676730076BC6B /* Drow Ranger.mp3 */; };
+		2700482A1D3676730076BC6B /* Earth Spirit.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 270047BA1D3676730076BC6B /* Earth Spirit.mp3 */; };
+		2700482B1D3676730076BC6B /* Earthshaker.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 270047BB1D3676730076BC6B /* Earthshaker.mp3 */; };
+		2700482C1D3676730076BC6B /* Elder Titan.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 270047BC1D3676730076BC6B /* Elder Titan.mp3 */; };
+		2700482D1D3676730076BC6B /* Ember Spirit.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 270047BD1D3676730076BC6B /* Ember Spirit.mp3 */; };
+		2700482E1D3676730076BC6B /* Enchantress.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 270047BE1D3676730076BC6B /* Enchantress.mp3 */; };
+		2700482F1D3676730076BC6B /* Enigma.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 270047BF1D3676730076BC6B /* Enigma.mp3 */; };
+		270048301D3676730076BC6B /* Faceless Void.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 270047C01D3676730076BC6B /* Faceless Void.mp3 */; };
+		270048311D3676730076BC6B /* Gyrocopter.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 270047C11D3676730076BC6B /* Gyrocopter.mp3 */; };
+		270048321D3676730076BC6B /* Huskar.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 270047C21D3676730076BC6B /* Huskar.mp3 */; };
+		270048331D3676730076BC6B /* Invoker.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 270047C31D3676730076BC6B /* Invoker.mp3 */; };
+		270048341D3676730076BC6B /* Io.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 270047C41D3676730076BC6B /* Io.mp3 */; };
+		270048351D3676730076BC6B /* Jakiro.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 270047C51D3676730076BC6B /* Jakiro.mp3 */; };
+		270048361D3676730076BC6B /* Juggernaut.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 270047C61D3676730076BC6B /* Juggernaut.mp3 */; };
+		270048371D3676730076BC6B /* Keeper of the Light.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 270047C71D3676730076BC6B /* Keeper of the Light.mp3 */; };
+		270048381D3676730076BC6B /* Kunkka.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 270047C81D3676730076BC6B /* Kunkka.mp3 */; };
+		270048391D3676730076BC6B /* Legion Commander.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 270047C91D3676730076BC6B /* Legion Commander.mp3 */; };
+		2700483A1D3676730076BC6B /* Leshrac.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 270047CA1D3676730076BC6B /* Leshrac.mp3 */; };
+		2700483B1D3676730076BC6B /* Lich.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 270047CB1D3676730076BC6B /* Lich.mp3 */; };
+		2700483C1D3676730076BC6B /* Lifestealer.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 270047CC1D3676730076BC6B /* Lifestealer.mp3 */; };
+		2700483D1D3676730076BC6B /* Lina.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 270047CD1D3676730076BC6B /* Lina.mp3 */; };
+		2700483E1D3676730076BC6B /* Lion.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 270047CE1D3676730076BC6B /* Lion.mp3 */; };
+		2700483F1D3676730076BC6B /* Lone Druid.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 270047CF1D3676730076BC6B /* Lone Druid.mp3 */; };
+		270048401D3676730076BC6B /* Luna.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 270047D01D3676730076BC6B /* Luna.mp3 */; };
+		270048411D3676730076BC6B /* Lycan.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 270047D11D3676730076BC6B /* Lycan.mp3 */; };
+		270048421D3676730076BC6B /* Magnus.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 270047D21D3676730076BC6B /* Magnus.mp3 */; };
+		270048431D3676730076BC6B /* Medusa.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 270047D31D3676730076BC6B /* Medusa.mp3 */; };
+		270048441D3676730076BC6B /* Meepo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 270047D41D3676730076BC6B /* Meepo.mp3 */; };
+		270048451D3676730076BC6B /* Mirana.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 270047D51D3676730076BC6B /* Mirana.mp3 */; };
+		270048461D3676730076BC6B /* Morphling.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 270047D61D3676730076BC6B /* Morphling.mp3 */; };
+		270048471D3676730076BC6B /* Naga Siren.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 270047D71D3676730076BC6B /* Naga Siren.mp3 */; };
+		270048481D3676730076BC6B /* Nature's Prophet.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 270047D81D3676730076BC6B /* Nature's Prophet.mp3 */; };
+		270048491D3676730076BC6B /* Necrophos.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 270047D91D3676730076BC6B /* Necrophos.mp3 */; };
+		2700484A1D3676730076BC6B /* Night Stalker.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 270047DA1D3676730076BC6B /* Night Stalker.mp3 */; };
+		2700484B1D3676730076BC6B /* Nyx Assassin.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 270047DB1D3676730076BC6B /* Nyx Assassin.mp3 */; };
+		2700484C1D3676730076BC6B /* Ogre Magi.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 270047DC1D3676730076BC6B /* Ogre Magi.mp3 */; };
+		2700484D1D3676730076BC6B /* Omniknight.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 270047DD1D3676730076BC6B /* Omniknight.mp3 */; };
+		2700484E1D3676730076BC6B /* Oracle.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 270047DE1D3676730076BC6B /* Oracle.mp3 */; };
+		2700484F1D3676730076BC6B /* Outworld Devourer.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 270047DF1D3676730076BC6B /* Outworld Devourer.mp3 */; };
+		270048501D3676730076BC6B /* Phantom Assassin.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 270047E01D3676730076BC6B /* Phantom Assassin.mp3 */; };
+		270048511D3676730076BC6B /* Phantom Lancer.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 270047E11D3676730076BC6B /* Phantom Lancer.mp3 */; };
+		270048521D3676730076BC6B /* Phoenix.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 270047E21D3676730076BC6B /* Phoenix.mp3 */; };
+		270048531D3676730076BC6B /* Puck.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 270047E31D3676730076BC6B /* Puck.mp3 */; };
+		270048541D3676730076BC6B /* Pudge.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 270047E41D3676730076BC6B /* Pudge.mp3 */; };
+		270048551D3676730076BC6B /* Pugna.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 270047E51D3676730076BC6B /* Pugna.mp3 */; };
+		270048561D3676730076BC6B /* Queen of Pain.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 270047E61D3676730076BC6B /* Queen of Pain.mp3 */; };
+		270048571D3676730076BC6B /* Razor.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 270047E71D3676730076BC6B /* Razor.mp3 */; };
+		270048581D3676730076BC6B /* Riki.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 270047E81D3676730076BC6B /* Riki.mp3 */; };
+		270048591D3676730076BC6B /* Rubick.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 270047E91D3676730076BC6B /* Rubick.mp3 */; };
+		2700485A1D3676730076BC6B /* Sand King.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 270047EA1D3676730076BC6B /* Sand King.mp3 */; };
+		2700485B1D3676730076BC6B /* Shadow Demon.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 270047EB1D3676730076BC6B /* Shadow Demon.mp3 */; };
+		2700485C1D3676730076BC6B /* Shadow Fiend.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 270047EC1D3676730076BC6B /* Shadow Fiend.mp3 */; };
+		2700485D1D3676730076BC6B /* Shadow Shaman.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 270047ED1D3676730076BC6B /* Shadow Shaman.mp3 */; };
+		2700485E1D3676730076BC6B /* Silencer.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 270047EE1D3676730076BC6B /* Silencer.mp3 */; };
+		2700485F1D3676730076BC6B /* Skywrath Mage.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 270047EF1D3676730076BC6B /* Skywrath Mage.mp3 */; };
+		270048601D3676730076BC6B /* Slardar.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 270047F01D3676730076BC6B /* Slardar.mp3 */; };
+		270048611D3676730076BC6B /* Slark.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 270047F11D3676730076BC6B /* Slark.mp3 */; };
+		270048621D3676730076BC6B /* Sniper.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 270047F21D3676730076BC6B /* Sniper.mp3 */; };
+		270048631D3676730076BC6B /* Spectre.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 270047F31D3676730076BC6B /* Spectre.mp3 */; };
+		270048641D3676730076BC6B /* Spirit Breaker.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 270047F41D3676730076BC6B /* Spirit Breaker.mp3 */; };
+		270048651D3676730076BC6B /* Storm Spirit.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 270047F51D3676730076BC6B /* Storm Spirit.mp3 */; };
+		270048661D3676730076BC6B /* Sven.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 270047F61D3676730076BC6B /* Sven.mp3 */; };
+		270048671D3676730076BC6B /* Techies.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 270047F71D3676730076BC6B /* Techies.mp3 */; };
+		270048681D3676730076BC6B /* Templar Assassin.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 270047F81D3676730076BC6B /* Templar Assassin.mp3 */; };
+		270048691D3676730076BC6B /* Terrorblade.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 270047F91D3676730076BC6B /* Terrorblade.mp3 */; };
+		2700486A1D3676730076BC6B /* Tidehunter.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 270047FA1D3676730076BC6B /* Tidehunter.mp3 */; };
+		2700486B1D3676730076BC6B /* Timbersaw.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 270047FB1D3676730076BC6B /* Timbersaw.mp3 */; };
+		2700486C1D3676730076BC6B /* Tinker.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 270047FC1D3676730076BC6B /* Tinker.mp3 */; };
+		2700486D1D3676730076BC6B /* Tiny.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 270047FD1D3676730076BC6B /* Tiny.mp3 */; };
+		2700486E1D3676730076BC6B /* Treant Protector.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 270047FE1D3676730076BC6B /* Treant Protector.mp3 */; };
+		2700486F1D3676730076BC6B /* Troll Warlord.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 270047FF1D3676730076BC6B /* Troll Warlord.mp3 */; };
+		270048701D3676730076BC6B /* Tusk.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 270048001D3676730076BC6B /* Tusk.mp3 */; };
+		270048711D3676730076BC6B /* Undying.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 270048011D3676730076BC6B /* Undying.mp3 */; };
+		270048721D3676730076BC6B /* Ursa.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 270048021D3676730076BC6B /* Ursa.mp3 */; };
+		270048731D3676730076BC6B /* Vengeful Spirit.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 270048031D3676730076BC6B /* Vengeful Spirit.mp3 */; };
+		270048741D3676730076BC6B /* Venomancer.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 270048041D3676730076BC6B /* Venomancer.mp3 */; };
+		270048751D3676730076BC6B /* Viper.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 270048051D3676730076BC6B /* Viper.mp3 */; };
+		270048761D3676730076BC6B /* Visage.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 270048061D3676730076BC6B /* Visage.mp3 */; };
+		270048771D3676730076BC6B /* Warlock.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 270048071D3676730076BC6B /* Warlock.mp3 */; };
+		270048781D3676730076BC6B /* Weaver.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 270048081D3676730076BC6B /* Weaver.mp3 */; };
+		270048791D3676730076BC6B /* Windranger.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 270048091D3676730076BC6B /* Windranger.mp3 */; };
+		2700487A1D3676730076BC6B /* Winter Wyvern.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2700480A1D3676730076BC6B /* Winter Wyvern.mp3 */; };
+		2700487B1D3676730076BC6B /* Witch Doctor.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2700480B1D3676730076BC6B /* Witch Doctor.mp3 */; };
+		2700487C1D3676730076BC6B /* Wraith King.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2700480C1D3676730076BC6B /* Wraith King.mp3 */; };
+		2700487D1D3676730076BC6B /* Zeus.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2700480D1D3676730076BC6B /* Zeus.mp3 */; };
+		2700488C1D36E1BD0076BC6B /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2700488B1D36E1BD0076BC6B /* Item.swift */; };
+		2700488E1D36EAD50076BC6B /* items.json in Resources */ = {isa = PBXBuildFile; fileRef = 2700488D1D36EAD50076BC6B /* items.json */; };
+		270048911D36F5E80076BC6B /* ItemCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 270048901D36F5E80076BC6B /* ItemCVC.swift */; };
+		27004A511D3718080076BC6B /* ItemChooseCollectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27004A501D3718080076BC6B /* ItemChooseCollectionVC.swift */; };
+		27004A531D37184A0076BC6B /* ItemWithCellCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27004A521D37184A0076BC6B /* ItemWithCellCVC.swift */; };
+		270454DC1D377FF400B7DA73 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 270454DA1D377FF400B7DA73 /* Main.storyboard */; };
+		270454DE1D3C504300B7DA73 /* NavVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 270454DD1D3C504200B7DA73 /* NavVC.swift */; };
+		270454E01D3C510E00B7DA73 /* TabBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 270454DF1D3C510E00B7DA73 /* TabBarVC.swift */; };
+		270FF53F1D2EB9B700E8F0AC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 270FF53E1D2EB9B700E8F0AC /* AppDelegate.swift */; };
+		270FF5411D2EB9B700E8F0AC /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 270FF5401D2EB9B700E8F0AC /* WelcomeViewController.swift */; };
+		270FF5461D2EB9B700E8F0AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 270FF5451D2EB9B700E8F0AC /* Assets.xcassets */; };
+		270FF5491D2EB9B700E8F0AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 270FF5471D2EB9B700E8F0AC /* LaunchScreen.storyboard */; };
+		2710F42A1D3C67A600A25BC8 /* GuideObserveVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2710F4291D3C67A600A25BC8 /* GuideObserveVC.swift */; };
+		2710F42C1D3C6E2400A25BC8 /* GuideObserveSpellTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2710F42B1D3C6E2400A25BC8 /* GuideObserveSpellTVC.swift */; };
+		2710F42E1D3C6E4800A25BC8 /* GuideObserveItemCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2710F42D1D3C6E4800A25BC8 /* GuideObserveItemCVC.swift */; };
+		2710F4301D3C713C00A25BC8 /* GuideCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2710F42F1D3C713C00A25BC8 /* GuideCVC.swift */; };
+		2714E07E1D3375FB00CF38DB /* GuideTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2714E07D1D3375FB00CF38DB /* GuideTableViewCell.swift */; };
+		2714E0821D33A43700CF38DB /* Guide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2714E0811D33A43700CF38DB /* Guide.swift */; };
+		2714E0841D33A47200CF38DB /* Hero.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2714E0831D33A47200CF38DB /* Hero.swift */; };
+		2723FC891D3449AF0093F4AB /* resetPasswordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2723FC881D3449AF0093F4AB /* resetPasswordVC.swift */; };
+		2723FC8B1D34BA700093F4AB /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2723FC8A1D34BA700093F4AB /* ProfileViewController.swift */; };
+		2723FC8D1D34BA950093F4AB /* headerForProfileV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2723FC8C1D34BA950093F4AB /* headerForProfileV.swift */; };
+		272D5B391D2ED41500569FF2 /* moments.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 272D5B361D2ED41500569FF2 /* moments.mp4 */; };
+		272D5B3A1D2ED41500569FF2 /* VideoCutter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 272D5B371D2ED41500569FF2 /* VideoCutter.swift */; };
+		272D5B3B1D2ED41500569FF2 /* VideoSplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 272D5B381D2ED41500569FF2 /* VideoSplashViewController.swift */; };
+		273453F81D42141100614F22 /* BlurImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273453F71D42141100614F22 /* BlurImage.swift */; };
+		273453FA1D4218C200614F22 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273453F91D4218C200614F22 /* User.swift */; };
+		273453FC1D421AF400614F22 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273453FB1D421AF400614F22 /* Constants.swift */; };
+		273453FE1D4223DD00614F22 /* Like.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273453FD1D4223DD00614F22 /* Like.swift */; };
+		2738BB6B1D3ED15D005ED2D2 /* 8291.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2738BB6A1D3ED15D005ED2D2 /* 8291.ttf */; };
+		27683ADE1D54A87700220C46 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 27683ADD1D54A87700220C46 /* GoogleService-Info.plist */; };
+		27BCC9611D2EEE50000AB219 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27BCC9601D2EEE50000AB219 /* LoginViewController.swift */; };
+		27BCC9631D2EEE62000AB219 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27BCC9621D2EEE62000AB219 /* SignUpViewController.swift */; };
+		27CEB4EE1D4AB2740071FDB4 /* ImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27CEB4ED1D4AB2740071FDB4 /* ImageCache.swift */; };
+		27D41B511D4E848C001E2705 /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D41B501D4E848C001E2705 /* TimerViewController.swift */; };
+		27F53F321D418A50009368D9 /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F53F311D418A50009368D9 /* CircleView.swift */; };
+		4116BE7E0DC09430CDDF158F /* Pods_DotaMate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBD11CC8FF81FBFB9ACA960A /* Pods_DotaMate.framework */; };
+		C7018BB91D7DFF3300CE2961 /* DotaMateApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7018BB81D7DFF3300CE2961 /* DotaMateApi.swift */; };
+		C7018BBB1D7DFFF100CE2961 /* DotaMateApiResources.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7018BBA1D7DFFF100CE2961 /* DotaMateApiResources.swift */; };
+		C7018BBD1D7E051300CE2961 /* AppService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7018BBC1D7E051300CE2961 /* AppService.swift */; };
+		C7018BC01D7E094200CE2961 /* ApiUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7018BBF1D7E094200CE2961 /* ApiUser.swift */; };
+		C7018BC31D7E162900CE2961 /* UserSearchTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7018BC21D7E162900CE2961 /* UserSearchTableViewController.swift */; };
+		C7018BC61D7E176600CE2961 /* UserSearchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7018BC51D7E176600CE2961 /* UserSearchTableViewCell.swift */; };
+		C72834591D862E7B00103E83 /* MatchDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C72834581D862E7B00103E83 /* MatchDetailsViewController.swift */; };
+		C72834601D863D6400103E83 /* MatchDetailsPlayerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C728345E1D863D6400103E83 /* MatchDetailsPlayerTableViewCell.swift */; };
+		C72834611D863D6400103E83 /* MatchDetailsPlayerTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C728345F1D863D6400103E83 /* MatchDetailsPlayerTableViewCell.xib */; };
+		C72834C51D87315100103E83 /* DMAbilityUpgradesArr.swift in Sources */ = {isa = PBXBuildFile; fileRef = C72834851D87315100103E83 /* DMAbilityUpgradesArr.swift */; };
+		C72834C61D87315100103E83 /* DMAbilityUses.swift in Sources */ = {isa = PBXBuildFile; fileRef = C72834861D87315100103E83 /* DMAbilityUses.swift */; };
+		C72834C81D87315100103E83 /* DMAdditionalUnits.swift in Sources */ = {isa = PBXBuildFile; fileRef = C72834881D87315100103E83 /* DMAdditionalUnits.swift */; };
+		C72834C91D87315100103E83 /* DMAllWordCounts.swift in Sources */ = {isa = PBXBuildFile; fileRef = C72834891D87315100103E83 /* DMAllWordCounts.swift */; };
+		C72834CA1D87315100103E83 /* DMBenchmarks.swift in Sources */ = {isa = PBXBuildFile; fileRef = C728348A1D87315100103E83 /* DMBenchmarks.swift */; };
+		C72834CB1D87315100103E83 /* DMBuybackLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = C728348B1D87315100103E83 /* DMBuybackLog.swift */; };
+		C72834CC1D87315100103E83 /* DMChat.swift in Sources */ = {isa = PBXBuildFile; fileRef = C728348C1D87315100103E83 /* DMChat.swift */; };
+		C72834CE1D87315100103E83 /* DMDamage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C728348E1D87315100103E83 /* DMDamage.swift */; };
+		C72834CF1D87315100103E83 /* DMDamageInflictor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C728348F1D87315100103E83 /* DMDamageInflictor.swift */; };
+		C72834D01D87315100103E83 /* DMDamageInflictorReceived.swift in Sources */ = {isa = PBXBuildFile; fileRef = C72834901D87315100103E83 /* DMDamageInflictorReceived.swift */; };
+		C72834D11D87315100103E83 /* DMDamageTaken.swift in Sources */ = {isa = PBXBuildFile; fileRef = C72834911D87315100103E83 /* DMDamageTaken.swift */; };
+		C72834D21D87315100103E83 /* DMDnT.swift in Sources */ = {isa = PBXBuildFile; fileRef = C72834921D87315100103E83 /* DMDnT.swift */; };
+		C72834D31D87315100103E83 /* DMFirstPurchaseTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = C72834931D87315100103E83 /* DMFirstPurchaseTime.swift */; };
+		C72834D41D87315100103E83 /* DMGoldPerMin.swift in Sources */ = {isa = PBXBuildFile; fileRef = C72834941D87315100103E83 /* DMGoldPerMin.swift */; };
+		C72834D61D87315100103E83 /* DMGoldT.swift in Sources */ = {isa = PBXBuildFile; fileRef = C72834961D87315100103E83 /* DMGoldT.swift */; };
+		C72834D71D87315100103E83 /* DMHeroDamagePerMin.swift in Sources */ = {isa = PBXBuildFile; fileRef = C72834971D87315100103E83 /* DMHeroDamagePerMin.swift */; };
+		C72834D81D87315100103E83 /* DMHeroes.swift in Sources */ = {isa = PBXBuildFile; fileRef = C72834981D87315100103E83 /* DMHeroes.swift */; };
+		C72834D91D87315100103E83 /* DMHeroesSteamAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = C72834991D87315100103E83 /* DMHeroesSteamAPI.swift */; };
+		C72834DA1D87315100103E83 /* DMHeroHealingPerMin.swift in Sources */ = {isa = PBXBuildFile; fileRef = C728349A1D87315100103E83 /* DMHeroHealingPerMin.swift */; };
+		C72834DB1D87315100103E83 /* DMHeroHits.swift in Sources */ = {isa = PBXBuildFile; fileRef = C728349B1D87315100103E83 /* DMHeroHits.swift */; };
+		C72834DC1D87315100103E83 /* DMItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = C728349C1D87315100103E83 /* DMItems.swift */; };
+		C72834DD1D87315100103E83 /* DMItemsSteamAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = C728349D1D87315100103E83 /* DMItemsSteamAPI.swift */; };
+		C72834DE1D87315100103E83 /* DMItemUsage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C728349E1D87315100103E83 /* DMItemUsage.swift */; };
+		C72834DF1D87315100103E83 /* DMItemUses.swift in Sources */ = {isa = PBXBuildFile; fileRef = C728349F1D87315100103E83 /* DMItemUses.swift */; };
+		C72834E01D87315100103E83 /* DMItemWin.swift in Sources */ = {isa = PBXBuildFile; fileRef = C72834A01D87315100103E83 /* DMItemWin.swift */; };
+		C72834E11D87315100103E83 /* DMKilled.swift in Sources */ = {isa = PBXBuildFile; fileRef = C72834A11D87315100103E83 /* DMKilled.swift */; };
+		C72834E21D87315100103E83 /* DMKilledBy.swift in Sources */ = {isa = PBXBuildFile; fileRef = C72834A21D87315100103E83 /* DMKilledBy.swift */; };
+		C72834E31D87315100103E83 /* DMKillsLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = C72834A31D87315100103E83 /* DMKillsLog.swift */; };
+		C72834E41D87315100103E83 /* DMKillsPerMin.swift in Sources */ = {isa = PBXBuildFile; fileRef = C72834A41D87315100103E83 /* DMKillsPerMin.swift */; };
+		C72834E61D87315100103E83 /* DMLanePos.swift in Sources */ = {isa = PBXBuildFile; fileRef = C72834A61D87315100103E83 /* DMLanePos.swift */; };
+		C72834E71D87315100103E83 /* DMLastHitsPerMin.swift in Sources */ = {isa = PBXBuildFile; fileRef = C72834A71D87315100103E83 /* DMLastHitsPerMin.swift */; };
+		C72834E81D87315100103E83 /* DMLhT.swift in Sources */ = {isa = PBXBuildFile; fileRef = C72834A81D87315100103E83 /* DMLhT.swift */; };
+		C72834EA1D87315100103E83 /* DMMatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = C72834AA1D87315100103E83 /* DMMatch.swift */; };
+		C72834EB1D87315100103E83 /* DMMaxHeroHit.swift in Sources */ = {isa = PBXBuildFile; fileRef = C72834AB1D87315100103E83 /* DMMaxHeroHit.swift */; };
+		C72834EC1D87315100103E83 /* DMMmrEstimate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C72834AC1D87315100103E83 /* DMMmrEstimate.swift */; };
+		C72834EE1D87315100103E83 /* DMMyWordCounts.swift in Sources */ = {isa = PBXBuildFile; fileRef = C72834AE1D87315100103E83 /* DMMyWordCounts.swift */; };
+		C72834EF1D87315100103E83 /* DMObjectives.swift in Sources */ = {isa = PBXBuildFile; fileRef = C72834AF1D87315100103E83 /* DMObjectives.swift */; };
+		C72834F01D87315100103E83 /* DMObs.swift in Sources */ = {isa = PBXBuildFile; fileRef = C72834B01D87315100103E83 /* DMObs.swift */; };
+		C72834F11D87315100103E83 /* DMObsLeftLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = C72834B11D87315100103E83 /* DMObsLeftLog.swift */; };
+		C72834F21D87315100103E83 /* DMObsLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = C72834B21D87315100103E83 /* DMObsLog.swift */; };
+		C72834F31D87315100103E83 /* DMPlayerProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = C72834B31D87315100103E83 /* DMPlayerProfile.swift */; };
+		C72834F41D87315100103E83 /* DMPlayers.swift in Sources */ = {isa = PBXBuildFile; fileRef = C72834B41D87315100103E83 /* DMPlayers.swift */; };
+		C72834F51D87315100103E83 /* DMPosData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C72834B51D87315100103E83 /* DMPosData.swift */; };
+		C72834F61D87315100103E83 /* DMProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = C72834B61D87315100103E83 /* DMProfile.swift */; };
+		C72834F71D87315100103E83 /* DMPurchase.swift in Sources */ = {isa = PBXBuildFile; fileRef = C72834B71D87315100103E83 /* DMPurchase.swift */; };
+		C72834F81D87315100103E83 /* DMPurchaseLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = C72834B81D87315100103E83 /* DMPurchaseLog.swift */; };
+		C72834F91D87315100103E83 /* DMPurchaseTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = C72834B91D87315100103E83 /* DMPurchaseTime.swift */; };
+		C72834FA1D87315100103E83 /* DMResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = C72834BA1D87315100103E83 /* DMResult.swift */; };
+		C72834FB1D87315100103E83 /* DMResultHero.swift in Sources */ = {isa = PBXBuildFile; fileRef = C72834BB1D87315100103E83 /* DMResultHero.swift */; };
+		C72834FC1D87315100103E83 /* DMSenLeftLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = C72834BC1D87315100103E83 /* DMSenLeftLog.swift */; };
+		C72834FD1D87315100103E83 /* DMSenLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = C72834BD1D87315100103E83 /* DMSenLog.swift */; };
+		C72834FE1D87315100103E83 /* DMSpecific.swift in Sources */ = {isa = PBXBuildFile; fileRef = C72834BE1D87315100103E83 /* DMSpecific.swift */; };
+		C72834FF1D87315100103E83 /* DMTeamfights.swift in Sources */ = {isa = PBXBuildFile; fileRef = C72834BF1D87315100103E83 /* DMTeamfights.swift */; };
+		C72835001D87315100103E83 /* DMTimes.swift in Sources */ = {isa = PBXBuildFile; fileRef = C72834C01D87315100103E83 /* DMTimes.swift */; };
+		C72835011D87315100103E83 /* DMTowerDamage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C72834C11D87315100103E83 /* DMTowerDamage.swift */; };
+		C72835021D87315100103E83 /* DMXpPerMin.swift in Sources */ = {isa = PBXBuildFile; fileRef = C72834C21D87315100103E83 /* DMXpPerMin.swift */; };
+		C72835041D87315100103E83 /* DMXpT.swift in Sources */ = {isa = PBXBuildFile; fileRef = C72834C41D87315100103E83 /* DMXpT.swift */; };
+		C747FF031D862C1F00896A24 /* PlayerProfile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C747FF021D862C1F00896A24 /* PlayerProfile.storyboard */; };
+		C76E6E7D1DA16414002529AE /* DMRecentMatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = C76E6E7C1DA16414002529AE /* DMRecentMatch.swift */; };
+		C779F58C1DA0C2D000A59F00 /* OutlinedText.swift in Sources */ = {isa = PBXBuildFile; fileRef = C779F58B1DA0C2D000A59F00 /* OutlinedText.swift */; };
+		C7C216331DA0BB4100332388 /* UIColorFromHexExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7C216321DA0BB4100332388 /* UIColorFromHexExtension.swift */; };
+		C7DAC5211D86249100393519 /* Match.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7DAC5201D86249100393519 /* Match.swift */; };
+		C7DAC5231D86252200393519 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7DAC5221D86252200393519 /* Player.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		172DA08D66DC5D5233568EE4 /* Pods-DotaMate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DotaMate.release.xcconfig"; path = "Pods/Target Support Files/Pods-DotaMate/Pods-DotaMate.release.xcconfig"; sourceTree = "<group>"; };
+		270047911D350C330076BC6B /* HeroChooseVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeroChooseVC.swift; sourceTree = "<group>"; };
+		270047951D3563E80076BC6B /* HeroChooseCVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HeroChooseCVC.swift; path = ../HeroChooseCVC.swift; sourceTree = "<group>"; };
+		270047971D3643B80076BC6B /* GuideMakerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GuideMakerViewController.swift; sourceTree = "<group>"; };
+		270047991D364A5E0076BC6B /* SpellTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpellTVC.swift; sourceTree = "<group>"; };
+		2700479B1D364B5C0076BC6B /* HeroDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeroDetail.swift; sourceTree = "<group>"; };
+		2700479E1D3676730076BC6B /* .DS_Store */ = {isa = PBXFileReference; lastKnownFileType = file; name = .DS_Store; path = Sounds/.DS_Store; sourceTree = "<group>"; };
+		2700479F1D3676730076BC6B /* Abaddon.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Abaddon.mp3; path = Sounds/Abaddon.mp3; sourceTree = "<group>"; };
+		270047A01D3676730076BC6B /* Alchemist.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Alchemist.mp3; path = Sounds/Alchemist.mp3; sourceTree = "<group>"; };
+		270047A11D3676730076BC6B /* Ancient Apparition.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Ancient Apparition.mp3"; path = "Sounds/Ancient Apparition.mp3"; sourceTree = "<group>"; };
+		270047A21D3676730076BC6B /* Anti-Mage.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Anti-Mage.mp3"; path = "Sounds/Anti-Mage.mp3"; sourceTree = "<group>"; };
+		270047A31D3676730076BC6B /* Arc Warden.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Arc Warden.mp3"; path = "Sounds/Arc Warden.mp3"; sourceTree = "<group>"; };
+		270047A41D3676730076BC6B /* Axe.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Axe.mp3; path = Sounds/Axe.mp3; sourceTree = "<group>"; };
+		270047A51D3676730076BC6B /* Bane.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Bane.mp3; path = Sounds/Bane.mp3; sourceTree = "<group>"; };
+		270047A61D3676730076BC6B /* Batrider.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Batrider.mp3; path = Sounds/Batrider.mp3; sourceTree = "<group>"; };
+		270047A71D3676730076BC6B /* Beastmaster.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Beastmaster.mp3; path = Sounds/Beastmaster.mp3; sourceTree = "<group>"; };
+		270047A81D3676730076BC6B /* Bloodseeker.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Bloodseeker.mp3; path = Sounds/Bloodseeker.mp3; sourceTree = "<group>"; };
+		270047A91D3676730076BC6B /* Bounty Hunter.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Bounty Hunter.mp3"; path = "Sounds/Bounty Hunter.mp3"; sourceTree = "<group>"; };
+		270047AA1D3676730076BC6B /* Brewmaster.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Brewmaster.mp3; path = Sounds/Brewmaster.mp3; sourceTree = "<group>"; };
+		270047AB1D3676730076BC6B /* Bristleback.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Bristleback.mp3; path = Sounds/Bristleback.mp3; sourceTree = "<group>"; };
+		270047AC1D3676730076BC6B /* Broodmother.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Broodmother.mp3; path = Sounds/Broodmother.mp3; sourceTree = "<group>"; };
+		270047AD1D3676730076BC6B /* Centaur Warrunner.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Centaur Warrunner.mp3"; path = "Sounds/Centaur Warrunner.mp3"; sourceTree = "<group>"; };
+		270047AE1D3676730076BC6B /* Chaos Knight.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Chaos Knight.mp3"; path = "Sounds/Chaos Knight.mp3"; sourceTree = "<group>"; };
+		270047AF1D3676730076BC6B /* Chen.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Chen.mp3; path = Sounds/Chen.mp3; sourceTree = "<group>"; };
+		270047B01D3676730076BC6B /* Clinkz.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Clinkz.mp3; path = Sounds/Clinkz.mp3; sourceTree = "<group>"; };
+		270047B11D3676730076BC6B /* Clockwerk.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Clockwerk.mp3; path = Sounds/Clockwerk.mp3; sourceTree = "<group>"; };
+		270047B21D3676730076BC6B /* Crystal Maiden.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Crystal Maiden.mp3"; path = "Sounds/Crystal Maiden.mp3"; sourceTree = "<group>"; };
+		270047B31D3676730076BC6B /* Dark Seer.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Dark Seer.mp3"; path = "Sounds/Dark Seer.mp3"; sourceTree = "<group>"; };
+		270047B41D3676730076BC6B /* Dazzle.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Dazzle.mp3; path = Sounds/Dazzle.mp3; sourceTree = "<group>"; };
+		270047B51D3676730076BC6B /* Death Prophet.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Death Prophet.mp3"; path = "Sounds/Death Prophet.mp3"; sourceTree = "<group>"; };
+		270047B61D3676730076BC6B /* Disruptor.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Disruptor.mp3; path = Sounds/Disruptor.mp3; sourceTree = "<group>"; };
+		270047B71D3676730076BC6B /* Doom.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Doom.mp3; path = Sounds/Doom.mp3; sourceTree = "<group>"; };
+		270047B81D3676730076BC6B /* Dragon Knight.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Dragon Knight.mp3"; path = "Sounds/Dragon Knight.mp3"; sourceTree = "<group>"; };
+		270047B91D3676730076BC6B /* Drow Ranger.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Drow Ranger.mp3"; path = "Sounds/Drow Ranger.mp3"; sourceTree = "<group>"; };
+		270047BA1D3676730076BC6B /* Earth Spirit.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Earth Spirit.mp3"; path = "Sounds/Earth Spirit.mp3"; sourceTree = "<group>"; };
+		270047BB1D3676730076BC6B /* Earthshaker.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Earthshaker.mp3; path = Sounds/Earthshaker.mp3; sourceTree = "<group>"; };
+		270047BC1D3676730076BC6B /* Elder Titan.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Elder Titan.mp3"; path = "Sounds/Elder Titan.mp3"; sourceTree = "<group>"; };
+		270047BD1D3676730076BC6B /* Ember Spirit.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Ember Spirit.mp3"; path = "Sounds/Ember Spirit.mp3"; sourceTree = "<group>"; };
+		270047BE1D3676730076BC6B /* Enchantress.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Enchantress.mp3; path = Sounds/Enchantress.mp3; sourceTree = "<group>"; };
+		270047BF1D3676730076BC6B /* Enigma.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Enigma.mp3; path = Sounds/Enigma.mp3; sourceTree = "<group>"; };
+		270047C01D3676730076BC6B /* Faceless Void.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Faceless Void.mp3"; path = "Sounds/Faceless Void.mp3"; sourceTree = "<group>"; };
+		270047C11D3676730076BC6B /* Gyrocopter.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Gyrocopter.mp3; path = Sounds/Gyrocopter.mp3; sourceTree = "<group>"; };
+		270047C21D3676730076BC6B /* Huskar.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Huskar.mp3; path = Sounds/Huskar.mp3; sourceTree = "<group>"; };
+		270047C31D3676730076BC6B /* Invoker.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Invoker.mp3; path = Sounds/Invoker.mp3; sourceTree = "<group>"; };
+		270047C41D3676730076BC6B /* Io.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Io.mp3; path = Sounds/Io.mp3; sourceTree = "<group>"; };
+		270047C51D3676730076BC6B /* Jakiro.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Jakiro.mp3; path = Sounds/Jakiro.mp3; sourceTree = "<group>"; };
+		270047C61D3676730076BC6B /* Juggernaut.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Juggernaut.mp3; path = Sounds/Juggernaut.mp3; sourceTree = "<group>"; };
+		270047C71D3676730076BC6B /* Keeper of the Light.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Keeper of the Light.mp3"; path = "Sounds/Keeper of the Light.mp3"; sourceTree = "<group>"; };
+		270047C81D3676730076BC6B /* Kunkka.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Kunkka.mp3; path = Sounds/Kunkka.mp3; sourceTree = "<group>"; };
+		270047C91D3676730076BC6B /* Legion Commander.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Legion Commander.mp3"; path = "Sounds/Legion Commander.mp3"; sourceTree = "<group>"; };
+		270047CA1D3676730076BC6B /* Leshrac.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Leshrac.mp3; path = Sounds/Leshrac.mp3; sourceTree = "<group>"; };
+		270047CB1D3676730076BC6B /* Lich.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Lich.mp3; path = Sounds/Lich.mp3; sourceTree = "<group>"; };
+		270047CC1D3676730076BC6B /* Lifestealer.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Lifestealer.mp3; path = Sounds/Lifestealer.mp3; sourceTree = "<group>"; };
+		270047CD1D3676730076BC6B /* Lina.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Lina.mp3; path = Sounds/Lina.mp3; sourceTree = "<group>"; };
+		270047CE1D3676730076BC6B /* Lion.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Lion.mp3; path = Sounds/Lion.mp3; sourceTree = "<group>"; };
+		270047CF1D3676730076BC6B /* Lone Druid.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Lone Druid.mp3"; path = "Sounds/Lone Druid.mp3"; sourceTree = "<group>"; };
+		270047D01D3676730076BC6B /* Luna.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Luna.mp3; path = Sounds/Luna.mp3; sourceTree = "<group>"; };
+		270047D11D3676730076BC6B /* Lycan.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Lycan.mp3; path = Sounds/Lycan.mp3; sourceTree = "<group>"; };
+		270047D21D3676730076BC6B /* Magnus.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Magnus.mp3; path = Sounds/Magnus.mp3; sourceTree = "<group>"; };
+		270047D31D3676730076BC6B /* Medusa.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Medusa.mp3; path = Sounds/Medusa.mp3; sourceTree = "<group>"; };
+		270047D41D3676730076BC6B /* Meepo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Meepo.mp3; path = Sounds/Meepo.mp3; sourceTree = "<group>"; };
+		270047D51D3676730076BC6B /* Mirana.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Mirana.mp3; path = Sounds/Mirana.mp3; sourceTree = "<group>"; };
+		270047D61D3676730076BC6B /* Morphling.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Morphling.mp3; path = Sounds/Morphling.mp3; sourceTree = "<group>"; };
+		270047D71D3676730076BC6B /* Naga Siren.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Naga Siren.mp3"; path = "Sounds/Naga Siren.mp3"; sourceTree = "<group>"; };
+		270047D81D3676730076BC6B /* Nature's Prophet.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Nature's Prophet.mp3"; path = "Sounds/Nature's Prophet.mp3"; sourceTree = "<group>"; };
+		270047D91D3676730076BC6B /* Necrophos.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Necrophos.mp3; path = Sounds/Necrophos.mp3; sourceTree = "<group>"; };
+		270047DA1D3676730076BC6B /* Night Stalker.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Night Stalker.mp3"; path = "Sounds/Night Stalker.mp3"; sourceTree = "<group>"; };
+		270047DB1D3676730076BC6B /* Nyx Assassin.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Nyx Assassin.mp3"; path = "Sounds/Nyx Assassin.mp3"; sourceTree = "<group>"; };
+		270047DC1D3676730076BC6B /* Ogre Magi.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Ogre Magi.mp3"; path = "Sounds/Ogre Magi.mp3"; sourceTree = "<group>"; };
+		270047DD1D3676730076BC6B /* Omniknight.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Omniknight.mp3; path = Sounds/Omniknight.mp3; sourceTree = "<group>"; };
+		270047DE1D3676730076BC6B /* Oracle.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Oracle.mp3; path = Sounds/Oracle.mp3; sourceTree = "<group>"; };
+		270047DF1D3676730076BC6B /* Outworld Devourer.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Outworld Devourer.mp3"; path = "Sounds/Outworld Devourer.mp3"; sourceTree = "<group>"; };
+		270047E01D3676730076BC6B /* Phantom Assassin.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Phantom Assassin.mp3"; path = "Sounds/Phantom Assassin.mp3"; sourceTree = "<group>"; };
+		270047E11D3676730076BC6B /* Phantom Lancer.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Phantom Lancer.mp3"; path = "Sounds/Phantom Lancer.mp3"; sourceTree = "<group>"; };
+		270047E21D3676730076BC6B /* Phoenix.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Phoenix.mp3; path = Sounds/Phoenix.mp3; sourceTree = "<group>"; };
+		270047E31D3676730076BC6B /* Puck.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Puck.mp3; path = Sounds/Puck.mp3; sourceTree = "<group>"; };
+		270047E41D3676730076BC6B /* Pudge.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Pudge.mp3; path = Sounds/Pudge.mp3; sourceTree = "<group>"; };
+		270047E51D3676730076BC6B /* Pugna.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Pugna.mp3; path = Sounds/Pugna.mp3; sourceTree = "<group>"; };
+		270047E61D3676730076BC6B /* Queen of Pain.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Queen of Pain.mp3"; path = "Sounds/Queen of Pain.mp3"; sourceTree = "<group>"; };
+		270047E71D3676730076BC6B /* Razor.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Razor.mp3; path = Sounds/Razor.mp3; sourceTree = "<group>"; };
+		270047E81D3676730076BC6B /* Riki.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Riki.mp3; path = Sounds/Riki.mp3; sourceTree = "<group>"; };
+		270047E91D3676730076BC6B /* Rubick.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Rubick.mp3; path = Sounds/Rubick.mp3; sourceTree = "<group>"; };
+		270047EA1D3676730076BC6B /* Sand King.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Sand King.mp3"; path = "Sounds/Sand King.mp3"; sourceTree = "<group>"; };
+		270047EB1D3676730076BC6B /* Shadow Demon.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Shadow Demon.mp3"; path = "Sounds/Shadow Demon.mp3"; sourceTree = "<group>"; };
+		270047EC1D3676730076BC6B /* Shadow Fiend.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Shadow Fiend.mp3"; path = "Sounds/Shadow Fiend.mp3"; sourceTree = "<group>"; };
+		270047ED1D3676730076BC6B /* Shadow Shaman.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Shadow Shaman.mp3"; path = "Sounds/Shadow Shaman.mp3"; sourceTree = "<group>"; };
+		270047EE1D3676730076BC6B /* Silencer.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Silencer.mp3; path = Sounds/Silencer.mp3; sourceTree = "<group>"; };
+		270047EF1D3676730076BC6B /* Skywrath Mage.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Skywrath Mage.mp3"; path = "Sounds/Skywrath Mage.mp3"; sourceTree = "<group>"; };
+		270047F01D3676730076BC6B /* Slardar.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Slardar.mp3; path = Sounds/Slardar.mp3; sourceTree = "<group>"; };
+		270047F11D3676730076BC6B /* Slark.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Slark.mp3; path = Sounds/Slark.mp3; sourceTree = "<group>"; };
+		270047F21D3676730076BC6B /* Sniper.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Sniper.mp3; path = Sounds/Sniper.mp3; sourceTree = "<group>"; };
+		270047F31D3676730076BC6B /* Spectre.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Spectre.mp3; path = Sounds/Spectre.mp3; sourceTree = "<group>"; };
+		270047F41D3676730076BC6B /* Spirit Breaker.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Spirit Breaker.mp3"; path = "Sounds/Spirit Breaker.mp3"; sourceTree = "<group>"; };
+		270047F51D3676730076BC6B /* Storm Spirit.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Storm Spirit.mp3"; path = "Sounds/Storm Spirit.mp3"; sourceTree = "<group>"; };
+		270047F61D3676730076BC6B /* Sven.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Sven.mp3; path = Sounds/Sven.mp3; sourceTree = "<group>"; };
+		270047F71D3676730076BC6B /* Techies.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Techies.mp3; path = Sounds/Techies.mp3; sourceTree = "<group>"; };
+		270047F81D3676730076BC6B /* Templar Assassin.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Templar Assassin.mp3"; path = "Sounds/Templar Assassin.mp3"; sourceTree = "<group>"; };
+		270047F91D3676730076BC6B /* Terrorblade.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Terrorblade.mp3; path = Sounds/Terrorblade.mp3; sourceTree = "<group>"; };
+		270047FA1D3676730076BC6B /* Tidehunter.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Tidehunter.mp3; path = Sounds/Tidehunter.mp3; sourceTree = "<group>"; };
+		270047FB1D3676730076BC6B /* Timbersaw.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Timbersaw.mp3; path = Sounds/Timbersaw.mp3; sourceTree = "<group>"; };
+		270047FC1D3676730076BC6B /* Tinker.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Tinker.mp3; path = Sounds/Tinker.mp3; sourceTree = "<group>"; };
+		270047FD1D3676730076BC6B /* Tiny.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Tiny.mp3; path = Sounds/Tiny.mp3; sourceTree = "<group>"; };
+		270047FE1D3676730076BC6B /* Treant Protector.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Treant Protector.mp3"; path = "Sounds/Treant Protector.mp3"; sourceTree = "<group>"; };
+		270047FF1D3676730076BC6B /* Troll Warlord.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Troll Warlord.mp3"; path = "Sounds/Troll Warlord.mp3"; sourceTree = "<group>"; };
+		270048001D3676730076BC6B /* Tusk.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Tusk.mp3; path = Sounds/Tusk.mp3; sourceTree = "<group>"; };
+		270048011D3676730076BC6B /* Undying.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Undying.mp3; path = Sounds/Undying.mp3; sourceTree = "<group>"; };
+		270048021D3676730076BC6B /* Ursa.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Ursa.mp3; path = Sounds/Ursa.mp3; sourceTree = "<group>"; };
+		270048031D3676730076BC6B /* Vengeful Spirit.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Vengeful Spirit.mp3"; path = "Sounds/Vengeful Spirit.mp3"; sourceTree = "<group>"; };
+		270048041D3676730076BC6B /* Venomancer.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Venomancer.mp3; path = Sounds/Venomancer.mp3; sourceTree = "<group>"; };
+		270048051D3676730076BC6B /* Viper.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Viper.mp3; path = Sounds/Viper.mp3; sourceTree = "<group>"; };
+		270048061D3676730076BC6B /* Visage.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Visage.mp3; path = Sounds/Visage.mp3; sourceTree = "<group>"; };
+		270048071D3676730076BC6B /* Warlock.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Warlock.mp3; path = Sounds/Warlock.mp3; sourceTree = "<group>"; };
+		270048081D3676730076BC6B /* Weaver.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Weaver.mp3; path = Sounds/Weaver.mp3; sourceTree = "<group>"; };
+		270048091D3676730076BC6B /* Windranger.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Windranger.mp3; path = Sounds/Windranger.mp3; sourceTree = "<group>"; };
+		2700480A1D3676730076BC6B /* Winter Wyvern.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Winter Wyvern.mp3"; path = "Sounds/Winter Wyvern.mp3"; sourceTree = "<group>"; };
+		2700480B1D3676730076BC6B /* Witch Doctor.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Witch Doctor.mp3"; path = "Sounds/Witch Doctor.mp3"; sourceTree = "<group>"; };
+		2700480C1D3676730076BC6B /* Wraith King.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Wraith King.mp3"; path = "Sounds/Wraith King.mp3"; sourceTree = "<group>"; };
+		2700480D1D3676730076BC6B /* Zeus.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Zeus.mp3; path = Sounds/Zeus.mp3; sourceTree = "<group>"; };
+		2700487E1D3687590076BC6B /* DotaMate-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DotaMate-Bridging-Header.h"; sourceTree = "<group>"; };
+		2700488B1D36E1BD0076BC6B /* Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		2700488D1D36EAD50076BC6B /* items.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = items.json; path = ../../items.json; sourceTree = "<group>"; };
+		270048901D36F5E80076BC6B /* ItemCVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemCVC.swift; sourceTree = "<group>"; };
+		27004A501D3718080076BC6B /* ItemChooseCollectionVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemChooseCollectionVC.swift; sourceTree = "<group>"; };
+		27004A521D37184A0076BC6B /* ItemWithCellCVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemWithCellCVC.swift; sourceTree = "<group>"; };
+		270454DB1D377FF400B7DA73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		270454DD1D3C504200B7DA73 /* NavVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavVC.swift; sourceTree = "<group>"; };
+		270454DF1D3C510E00B7DA73 /* TabBarVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarVC.swift; sourceTree = "<group>"; };
+		270FF53B1D2EB9B700E8F0AC /* DotaMate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DotaMate.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		270FF53E1D2EB9B700E8F0AC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		270FF5401D2EB9B700E8F0AC /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		270FF5451D2EB9B700E8F0AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		270FF5481D2EB9B700E8F0AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		270FF54A1D2EB9B700E8F0AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2710F4291D3C67A600A25BC8 /* GuideObserveVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GuideObserveVC.swift; sourceTree = "<group>"; };
+		2710F42B1D3C6E2400A25BC8 /* GuideObserveSpellTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GuideObserveSpellTVC.swift; sourceTree = "<group>"; };
+		2710F42D1D3C6E4800A25BC8 /* GuideObserveItemCVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GuideObserveItemCVC.swift; sourceTree = "<group>"; };
+		2710F42F1D3C713C00A25BC8 /* GuideCVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GuideCVC.swift; sourceTree = "<group>"; };
+		2714E07D1D3375FB00CF38DB /* GuideTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GuideTableViewCell.swift; sourceTree = "<group>"; };
+		2714E0811D33A43700CF38DB /* Guide.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Guide.swift; sourceTree = "<group>"; };
+		2714E0831D33A47200CF38DB /* Hero.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hero.swift; sourceTree = "<group>"; };
+		2723FC881D3449AF0093F4AB /* resetPasswordVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = resetPasswordVC.swift; sourceTree = "<group>"; };
+		2723FC8A1D34BA700093F4AB /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		2723FC8C1D34BA950093F4AB /* headerForProfileV.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = headerForProfileV.swift; sourceTree = "<group>"; };
+		272D5B361D2ED41500569FF2 /* moments.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = moments.mp4; sourceTree = "<group>"; };
+		272D5B371D2ED41500569FF2 /* VideoCutter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoCutter.swift; sourceTree = "<group>"; };
+		272D5B381D2ED41500569FF2 /* VideoSplashViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoSplashViewController.swift; sourceTree = "<group>"; };
+		273453F71D42141100614F22 /* BlurImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlurImage.swift; sourceTree = "<group>"; };
+		273453F91D4218C200614F22 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		273453FB1D421AF400614F22 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		273453FD1D4223DD00614F22 /* Like.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Like.swift; sourceTree = "<group>"; };
+		2738BB6A1D3ED15D005ED2D2 /* 8291.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = 8291.ttf; sourceTree = "<group>"; };
+		27683ADD1D54A87700220C46 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		27683AE21D54AA6A00220C46 /* DotaMate-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DotaMate-Bridging-Header.h"; sourceTree = "<group>"; };
+		27BCC9601D2EEE50000AB219 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		27BCC9621D2EEE62000AB219 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		27CEB4ED1D4AB2740071FDB4 /* ImageCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageCache.swift; sourceTree = "<group>"; };
+		27D41B501D4E848C001E2705 /* TimerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimerViewController.swift; sourceTree = "<group>"; };
+		27F53F311D418A50009368D9 /* CircleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
+		3F212C82F9DD0990F0890FA2 /* Pods-DotaMate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DotaMate.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DotaMate/Pods-DotaMate.debug.xcconfig"; sourceTree = "<group>"; };
+		C7018BB81D7DFF3300CE2961 /* DotaMateApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DotaMateApi.swift; sourceTree = "<group>"; };
+		C7018BBA1D7DFFF100CE2961 /* DotaMateApiResources.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DotaMateApiResources.swift; sourceTree = "<group>"; };
+		C7018BBC1D7E051300CE2961 /* AppService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppService.swift; sourceTree = "<group>"; };
+		C7018BBF1D7E094200CE2961 /* ApiUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiUser.swift; sourceTree = "<group>"; };
+		C7018BC21D7E162900CE2961 /* UserSearchTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserSearchTableViewController.swift; sourceTree = "<group>"; };
+		C7018BC51D7E176600CE2961 /* UserSearchTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserSearchTableViewCell.swift; sourceTree = "<group>"; };
+		C72834581D862E7B00103E83 /* MatchDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MatchDetailsViewController.swift; sourceTree = "<group>"; };
+		C728345E1D863D6400103E83 /* MatchDetailsPlayerTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MatchDetailsPlayerTableViewCell.swift; sourceTree = "<group>"; };
+		C728345F1D863D6400103E83 /* MatchDetailsPlayerTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MatchDetailsPlayerTableViewCell.xib; sourceTree = "<group>"; };
+		C72834851D87315100103E83 /* DMAbilityUpgradesArr.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DMAbilityUpgradesArr.swift; sourceTree = "<group>"; };
+		C72834861D87315100103E83 /* DMAbilityUses.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DMAbilityUses.swift; sourceTree = "<group>"; };
+		C72834881D87315100103E83 /* DMAdditionalUnits.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DMAdditionalUnits.swift; sourceTree = "<group>"; };
+		C72834891D87315100103E83 /* DMAllWordCounts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DMAllWordCounts.swift; sourceTree = "<group>"; };
+		C728348A1D87315100103E83 /* DMBenchmarks.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DMBenchmarks.swift; sourceTree = "<group>"; };
+		C728348B1D87315100103E83 /* DMBuybackLog.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DMBuybackLog.swift; sourceTree = "<group>"; };
+		C728348C1D87315100103E83 /* DMChat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DMChat.swift; sourceTree = "<group>"; };
+		C728348E1D87315100103E83 /* DMDamage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DMDamage.swift; sourceTree = "<group>"; };
+		C728348F1D87315100103E83 /* DMDamageInflictor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DMDamageInflictor.swift; sourceTree = "<group>"; };
+		C72834901D87315100103E83 /* DMDamageInflictorReceived.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DMDamageInflictorReceived.swift; sourceTree = "<group>"; };
+		C72834911D87315100103E83 /* DMDamageTaken.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DMDamageTaken.swift; sourceTree = "<group>"; };
+		C72834921D87315100103E83 /* DMDnT.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DMDnT.swift; sourceTree = "<group>"; };
+		C72834931D87315100103E83 /* DMFirstPurchaseTime.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DMFirstPurchaseTime.swift; sourceTree = "<group>"; };
+		C72834941D87315100103E83 /* DMGoldPerMin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DMGoldPerMin.swift; sourceTree = "<group>"; };
+		C72834961D87315100103E83 /* DMGoldT.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DMGoldT.swift; sourceTree = "<group>"; };
+		C72834971D87315100103E83 /* DMHeroDamagePerMin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DMHeroDamagePerMin.swift; sourceTree = "<group>"; };
+		C72834981D87315100103E83 /* DMHeroes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DMHeroes.swift; sourceTree = "<group>"; };
+		C72834991D87315100103E83 /* DMHeroesSteamAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DMHeroesSteamAPI.swift; sourceTree = "<group>"; };
+		C728349A1D87315100103E83 /* DMHeroHealingPerMin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DMHeroHealingPerMin.swift; sourceTree = "<group>"; };
+		C728349B1D87315100103E83 /* DMHeroHits.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DMHeroHits.swift; sourceTree = "<group>"; };
+		C728349C1D87315100103E83 /* DMItems.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DMItems.swift; sourceTree = "<group>"; };
+		C728349D1D87315100103E83 /* DMItemsSteamAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DMItemsSteamAPI.swift; sourceTree = "<group>"; };
+		C728349E1D87315100103E83 /* DMItemUsage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DMItemUsage.swift; sourceTree = "<group>"; };
+		C728349F1D87315100103E83 /* DMItemUses.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DMItemUses.swift; sourceTree = "<group>"; };
+		C72834A01D87315100103E83 /* DMItemWin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DMItemWin.swift; sourceTree = "<group>"; };
+		C72834A11D87315100103E83 /* DMKilled.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DMKilled.swift; sourceTree = "<group>"; };
+		C72834A21D87315100103E83 /* DMKilledBy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DMKilledBy.swift; sourceTree = "<group>"; };
+		C72834A31D87315100103E83 /* DMKillsLog.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DMKillsLog.swift; sourceTree = "<group>"; };
+		C72834A41D87315100103E83 /* DMKillsPerMin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DMKillsPerMin.swift; sourceTree = "<group>"; };
+		C72834A61D87315100103E83 /* DMLanePos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DMLanePos.swift; sourceTree = "<group>"; };
+		C72834A71D87315100103E83 /* DMLastHitsPerMin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DMLastHitsPerMin.swift; sourceTree = "<group>"; };
+		C72834A81D87315100103E83 /* DMLhT.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DMLhT.swift; sourceTree = "<group>"; };
+		C72834AA1D87315100103E83 /* DMMatch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DMMatch.swift; sourceTree = "<group>"; };
+		C72834AB1D87315100103E83 /* DMMaxHeroHit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DMMaxHeroHit.swift; sourceTree = "<group>"; };
+		C72834AC1D87315100103E83 /* DMMmrEstimate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DMMmrEstimate.swift; sourceTree = "<group>"; };
+		C72834AE1D87315100103E83 /* DMMyWordCounts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DMMyWordCounts.swift; sourceTree = "<group>"; };
+		C72834AF1D87315100103E83 /* DMObjectives.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DMObjectives.swift; sourceTree = "<group>"; };
+		C72834B01D87315100103E83 /* DMObs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DMObs.swift; sourceTree = "<group>"; };
+		C72834B11D87315100103E83 /* DMObsLeftLog.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DMObsLeftLog.swift; sourceTree = "<group>"; };
+		C72834B21D87315100103E83 /* DMObsLog.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DMObsLog.swift; sourceTree = "<group>"; };
+		C72834B31D87315100103E83 /* DMPlayerProfile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DMPlayerProfile.swift; sourceTree = "<group>"; };
+		C72834B41D87315100103E83 /* DMPlayers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DMPlayers.swift; sourceTree = "<group>"; };
+		C72834B51D87315100103E83 /* DMPosData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DMPosData.swift; sourceTree = "<group>"; };
+		C72834B61D87315100103E83 /* DMProfile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DMProfile.swift; sourceTree = "<group>"; };
+		C72834B71D87315100103E83 /* DMPurchase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DMPurchase.swift; sourceTree = "<group>"; };
+		C72834B81D87315100103E83 /* DMPurchaseLog.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DMPurchaseLog.swift; sourceTree = "<group>"; };
+		C72834B91D87315100103E83 /* DMPurchaseTime.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DMPurchaseTime.swift; sourceTree = "<group>"; };
+		C72834BA1D87315100103E83 /* DMResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DMResult.swift; sourceTree = "<group>"; };
+		C72834BB1D87315100103E83 /* DMResultHero.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DMResultHero.swift; sourceTree = "<group>"; };
+		C72834BC1D87315100103E83 /* DMSenLeftLog.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DMSenLeftLog.swift; sourceTree = "<group>"; };
+		C72834BD1D87315100103E83 /* DMSenLog.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DMSenLog.swift; sourceTree = "<group>"; };
+		C72834BE1D87315100103E83 /* DMSpecific.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DMSpecific.swift; sourceTree = "<group>"; };
+		C72834BF1D87315100103E83 /* DMTeamfights.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DMTeamfights.swift; sourceTree = "<group>"; };
+		C72834C01D87315100103E83 /* DMTimes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DMTimes.swift; sourceTree = "<group>"; };
+		C72834C11D87315100103E83 /* DMTowerDamage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DMTowerDamage.swift; sourceTree = "<group>"; };
+		C72834C21D87315100103E83 /* DMXpPerMin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DMXpPerMin.swift; sourceTree = "<group>"; };
+		C72834C41D87315100103E83 /* DMXpT.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DMXpT.swift; sourceTree = "<group>"; };
+		C747FF021D862C1F00896A24 /* PlayerProfile.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = PlayerProfile.storyboard; sourceTree = "<group>"; };
+		C76E6E7C1DA16414002529AE /* DMRecentMatch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DMRecentMatch.swift; sourceTree = "<group>"; };
+		C779F58B1DA0C2D000A59F00 /* OutlinedText.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OutlinedText.swift; sourceTree = "<group>"; };
+		C7C216321DA0BB4100332388 /* UIColorFromHexExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorFromHexExtension.swift; sourceTree = "<group>"; };
+		C7DAC5201D86249100393519 /* Match.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Match.swift; sourceTree = "<group>"; };
+		C7DAC5221D86252200393519 /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		EBD11CC8FF81FBFB9ACA960A /* Pods_DotaMate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DotaMate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		270FF5381D2EB9B700E8F0AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4116BE7E0DC09430CDDF158F /* Pods_DotaMate.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03FB9E635199A91CD0BA416E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3F212C82F9DD0990F0890FA2 /* Pods-DotaMate.debug.xcconfig */,
+				172DA08D66DC5D5233568EE4 /* Pods-DotaMate.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		2700479D1D3676320076BC6B /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				2700479E1D3676730076BC6B /* .DS_Store */,
+				2700479F1D3676730076BC6B /* Abaddon.mp3 */,
+				270047A01D3676730076BC6B /* Alchemist.mp3 */,
+				270047A11D3676730076BC6B /* Ancient Apparition.mp3 */,
+				270047A21D3676730076BC6B /* Anti-Mage.mp3 */,
+				270047A31D3676730076BC6B /* Arc Warden.mp3 */,
+				270047A41D3676730076BC6B /* Axe.mp3 */,
+				270047A51D3676730076BC6B /* Bane.mp3 */,
+				270047A61D3676730076BC6B /* Batrider.mp3 */,
+				270047A71D3676730076BC6B /* Beastmaster.mp3 */,
+				270047A81D3676730076BC6B /* Bloodseeker.mp3 */,
+				270047A91D3676730076BC6B /* Bounty Hunter.mp3 */,
+				270047AA1D3676730076BC6B /* Brewmaster.mp3 */,
+				270047AB1D3676730076BC6B /* Bristleback.mp3 */,
+				270047AC1D3676730076BC6B /* Broodmother.mp3 */,
+				270047AD1D3676730076BC6B /* Centaur Warrunner.mp3 */,
+				270047AE1D3676730076BC6B /* Chaos Knight.mp3 */,
+				270047AF1D3676730076BC6B /* Chen.mp3 */,
+				270047B01D3676730076BC6B /* Clinkz.mp3 */,
+				270047B11D3676730076BC6B /* Clockwerk.mp3 */,
+				270047B21D3676730076BC6B /* Crystal Maiden.mp3 */,
+				270047B31D3676730076BC6B /* Dark Seer.mp3 */,
+				270047B41D3676730076BC6B /* Dazzle.mp3 */,
+				270047B51D3676730076BC6B /* Death Prophet.mp3 */,
+				270047B61D3676730076BC6B /* Disruptor.mp3 */,
+				270047B71D3676730076BC6B /* Doom.mp3 */,
+				270047B81D3676730076BC6B /* Dragon Knight.mp3 */,
+				270047B91D3676730076BC6B /* Drow Ranger.mp3 */,
+				270047BA1D3676730076BC6B /* Earth Spirit.mp3 */,
+				270047BB1D3676730076BC6B /* Earthshaker.mp3 */,
+				270047BC1D3676730076BC6B /* Elder Titan.mp3 */,
+				270047BD1D3676730076BC6B /* Ember Spirit.mp3 */,
+				270047BE1D3676730076BC6B /* Enchantress.mp3 */,
+				270047BF1D3676730076BC6B /* Enigma.mp3 */,
+				270047C01D3676730076BC6B /* Faceless Void.mp3 */,
+				270047C11D3676730076BC6B /* Gyrocopter.mp3 */,
+				270047C21D3676730076BC6B /* Huskar.mp3 */,
+				270047C31D3676730076BC6B /* Invoker.mp3 */,
+				270047C41D3676730076BC6B /* Io.mp3 */,
+				270047C51D3676730076BC6B /* Jakiro.mp3 */,
+				270047C61D3676730076BC6B /* Juggernaut.mp3 */,
+				270047C71D3676730076BC6B /* Keeper of the Light.mp3 */,
+				270047C81D3676730076BC6B /* Kunkka.mp3 */,
+				270047C91D3676730076BC6B /* Legion Commander.mp3 */,
+				270047CA1D3676730076BC6B /* Leshrac.mp3 */,
+				270047CB1D3676730076BC6B /* Lich.mp3 */,
+				270047CC1D3676730076BC6B /* Lifestealer.mp3 */,
+				270047CD1D3676730076BC6B /* Lina.mp3 */,
+				270047CE1D3676730076BC6B /* Lion.mp3 */,
+				270047CF1D3676730076BC6B /* Lone Druid.mp3 */,
+				270047D01D3676730076BC6B /* Luna.mp3 */,
+				270047D11D3676730076BC6B /* Lycan.mp3 */,
+				270047D21D3676730076BC6B /* Magnus.mp3 */,
+				270047D31D3676730076BC6B /* Medusa.mp3 */,
+				270047D41D3676730076BC6B /* Meepo.mp3 */,
+				270047D51D3676730076BC6B /* Mirana.mp3 */,
+				270047D61D3676730076BC6B /* Morphling.mp3 */,
+				270047D71D3676730076BC6B /* Naga Siren.mp3 */,
+				270047D81D3676730076BC6B /* Nature's Prophet.mp3 */,
+				270047D91D3676730076BC6B /* Necrophos.mp3 */,
+				270047DA1D3676730076BC6B /* Night Stalker.mp3 */,
+				270047DB1D3676730076BC6B /* Nyx Assassin.mp3 */,
+				270047DC1D3676730076BC6B /* Ogre Magi.mp3 */,
+				270047DD1D3676730076BC6B /* Omniknight.mp3 */,
+				270047DE1D3676730076BC6B /* Oracle.mp3 */,
+				270047DF1D3676730076BC6B /* Outworld Devourer.mp3 */,
+				270047E01D3676730076BC6B /* Phantom Assassin.mp3 */,
+				270047E11D3676730076BC6B /* Phantom Lancer.mp3 */,
+				270047E21D3676730076BC6B /* Phoenix.mp3 */,
+				270047E31D3676730076BC6B /* Puck.mp3 */,
+				270047E41D3676730076BC6B /* Pudge.mp3 */,
+				270047E51D3676730076BC6B /* Pugna.mp3 */,
+				270047E61D3676730076BC6B /* Queen of Pain.mp3 */,
+				270047E71D3676730076BC6B /* Razor.mp3 */,
+				270047E81D3676730076BC6B /* Riki.mp3 */,
+				270047E91D3676730076BC6B /* Rubick.mp3 */,
+				270047EA1D3676730076BC6B /* Sand King.mp3 */,
+				270047EB1D3676730076BC6B /* Shadow Demon.mp3 */,
+				270047EC1D3676730076BC6B /* Shadow Fiend.mp3 */,
+				270047ED1D3676730076BC6B /* Shadow Shaman.mp3 */,
+				270047EE1D3676730076BC6B /* Silencer.mp3 */,
+				270047EF1D3676730076BC6B /* Skywrath Mage.mp3 */,
+				270047F01D3676730076BC6B /* Slardar.mp3 */,
+				270047F11D3676730076BC6B /* Slark.mp3 */,
+				270047F21D3676730076BC6B /* Sniper.mp3 */,
+				270047F31D3676730076BC6B /* Spectre.mp3 */,
+				270047F41D3676730076BC6B /* Spirit Breaker.mp3 */,
+				270047F51D3676730076BC6B /* Storm Spirit.mp3 */,
+				270047F61D3676730076BC6B /* Sven.mp3 */,
+				270047F71D3676730076BC6B /* Techies.mp3 */,
+				270047F81D3676730076BC6B /* Templar Assassin.mp3 */,
+				270047F91D3676730076BC6B /* Terrorblade.mp3 */,
+				270047FA1D3676730076BC6B /* Tidehunter.mp3 */,
+				270047FB1D3676730076BC6B /* Timbersaw.mp3 */,
+				270047FC1D3676730076BC6B /* Tinker.mp3 */,
+				270047FD1D3676730076BC6B /* Tiny.mp3 */,
+				270047FE1D3676730076BC6B /* Treant Protector.mp3 */,
+				270047FF1D3676730076BC6B /* Troll Warlord.mp3 */,
+				270048001D3676730076BC6B /* Tusk.mp3 */,
+				270048011D3676730076BC6B /* Undying.mp3 */,
+				270048021D3676730076BC6B /* Ursa.mp3 */,
+				270048031D3676730076BC6B /* Vengeful Spirit.mp3 */,
+				270048041D3676730076BC6B /* Venomancer.mp3 */,
+				270048051D3676730076BC6B /* Viper.mp3 */,
+				270048061D3676730076BC6B /* Visage.mp3 */,
+				270048071D3676730076BC6B /* Warlock.mp3 */,
+				270048081D3676730076BC6B /* Weaver.mp3 */,
+				270048091D3676730076BC6B /* Windranger.mp3 */,
+				2700480A1D3676730076BC6B /* Winter Wyvern.mp3 */,
+				2700480B1D3676730076BC6B /* Witch Doctor.mp3 */,
+				2700480C1D3676730076BC6B /* Wraith King.mp3 */,
+				2700480D1D3676730076BC6B /* Zeus.mp3 */,
+			);
+			name = Sounds;
+			sourceTree = "<group>";
+		};
+		2700488F1D36EADE0076BC6B /* json */ = {
+			isa = PBXGroup;
+			children = (
+				2700488D1D36EAD50076BC6B /* items.json */,
+			);
+			name = json;
+			sourceTree = "<group>";
+		};
+		27004A541D3719440076BC6B /* HeroChoose */ = {
+			isa = PBXGroup;
+			children = (
+				270047951D3563E80076BC6B /* HeroChooseCVC.swift */,
+				270047911D350C330076BC6B /* HeroChooseVC.swift */,
+			);
+			name = HeroChoose;
+			sourceTree = "<group>";
+		};
+		270FF5321D2EB9B700E8F0AC = {
+			isa = PBXGroup;
+			children = (
+				270FF53D1D2EB9B700E8F0AC /* DotaMate */,
+				270FF53C1D2EB9B700E8F0AC /* Products */,
+				C860E156C464BC39F1C76A60 /* Frameworks */,
+				03FB9E635199A91CD0BA416E /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		270FF53C1D2EB9B700E8F0AC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				270FF53B1D2EB9B700E8F0AC /* DotaMate.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		270FF53D1D2EB9B700E8F0AC /* DotaMate */ = {
+			isa = PBXGroup;
+			children = (
+				273453F61D4213F800614F22 /* Extensions */,
+				2738BB691D3ED131005ED2D2 /* Resources */,
+				27683ADD1D54A87700220C46 /* GoogleService-Info.plist */,
+				2700479D1D3676320076BC6B /* Sounds */,
+				272D5B3D1D2EDC4A00569FF2 /* Supporting Files */,
+				270454DA1D377FF400B7DA73 /* Main.storyboard */,
+				C747FF021D862C1F00896A24 /* PlayerProfile.storyboard */,
+				270FF53E1D2EB9B700E8F0AC /* AppDelegate.swift */,
+				272D5B3E1D2EDC5900569FF2 /* Model */,
+				2714E0851D33A4A700CF38DB /* View */,
+				2714E0861D33A4BC00CF38DB /* Controller */,
+				2700488F1D36EADE0076BC6B /* json */,
+				270454DD1D3C504200B7DA73 /* NavVC.swift */,
+				270454DF1D3C510E00B7DA73 /* TabBarVC.swift */,
+			);
+			path = DotaMate;
+			sourceTree = "<group>";
+		};
+		2710F4251D3C672D00A25BC8 /* ItemVC */ = {
+			isa = PBXGroup;
+			children = (
+				270048901D36F5E80076BC6B /* ItemCVC.swift */,
+				27004A521D37184A0076BC6B /* ItemWithCellCVC.swift */,
+				27004A501D3718080076BC6B /* ItemChooseCollectionVC.swift */,
+			);
+			name = ItemVC;
+			sourceTree = "<group>";
+		};
+		2710F4261D3C674B00A25BC8 /* guideCreateVC */ = {
+			isa = PBXGroup;
+			children = (
+				270047971D3643B80076BC6B /* GuideMakerViewController.swift */,
+				270047991D364A5E0076BC6B /* SpellTVC.swift */,
+			);
+			name = guideCreateVC;
+			sourceTree = "<group>";
+		};
+		2710F4271D3C677E00A25BC8 /* feed */ = {
+			isa = PBXGroup;
+			children = (
+				2710F42F1D3C713C00A25BC8 /* GuideCVC.swift */,
+				2723FC8A1D34BA700093F4AB /* ProfileViewController.swift */,
+				2723FC8C1D34BA950093F4AB /* headerForProfileV.swift */,
+			);
+			name = feed;
+			sourceTree = "<group>";
+		};
+		2710F4281D3C678800A25BC8 /* GuideView */ = {
+			isa = PBXGroup;
+			children = (
+				2710F4291D3C67A600A25BC8 /* GuideObserveVC.swift */,
+				2710F42B1D3C6E2400A25BC8 /* GuideObserveSpellTVC.swift */,
+				2710F42D1D3C6E4800A25BC8 /* GuideObserveItemCVC.swift */,
+				27F53F311D418A50009368D9 /* CircleView.swift */,
+			);
+			name = GuideView;
+			sourceTree = "<group>";
+		};
+		2714E0851D33A4A700CF38DB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2714E07D1D3375FB00CF38DB /* GuideTableViewCell.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		2714E0861D33A4BC00CF38DB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C728345A1D86373500103E83 /* MatchDetails */,
+				C7018BC11D7E161200CE2961 /* UserSearch */,
+				2710F4251D3C672D00A25BC8 /* ItemVC */,
+				27004A541D3719440076BC6B /* HeroChoose */,
+				2710F4261D3C674B00A25BC8 /* guideCreateVC */,
+				2710F4271D3C677E00A25BC8 /* feed */,
+				2710F4281D3C678800A25BC8 /* GuideView */,
+				27BCC9641D336155000AB219 /* Registration */,
+				27D41B501D4E848C001E2705 /* TimerViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		272D5B3C1D2EDC3A00569FF2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				272D5B361D2ED41500569FF2 /* moments.mp4 */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		272D5B3D1D2EDC4A00569FF2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C7C216321DA0BB4100332388 /* UIColorFromHexExtension.swift */,
+				272D5B3C1D2EDC3A00569FF2 /* Resources */,
+				270FF5451D2EB9B700E8F0AC /* Assets.xcassets */,
+				270FF5471D2EB9B700E8F0AC /* LaunchScreen.storyboard */,
+				270FF54A1D2EB9B700E8F0AC /* Info.plist */,
+				27683AE21D54AA6A00220C46 /* DotaMate-Bridging-Header.h */,
+				C779F58B1DA0C2D000A59F00 /* OutlinedText.swift */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		272D5B3E1D2EDC5900569FF2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C7018BB71D7DFF2700CE2961 /* API */,
+				27BCC9651D33615E000AB219 /* VideoModel */,
+				2714E0811D33A43700CF38DB /* Guide.swift */,
+				273453FD1D4223DD00614F22 /* Like.swift */,
+				2714E0831D33A47200CF38DB /* Hero.swift */,
+				2700479B1D364B5C0076BC6B /* HeroDetail.swift */,
+				2700488B1D36E1BD0076BC6B /* Item.swift */,
+				273453F91D4218C200614F22 /* User.swift */,
+				273453FB1D421AF400614F22 /* Constants.swift */,
+				27CEB4ED1D4AB2740071FDB4 /* ImageCache.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		273453F61D4213F800614F22 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				273453F71D42141100614F22 /* BlurImage.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		2738BB691D3ED131005ED2D2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2738BB6A1D3ED15D005ED2D2 /* 8291.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		27BCC9641D336155000AB219 /* Registration */ = {
+			isa = PBXGroup;
+			children = (
+				270FF5401D2EB9B700E8F0AC /* WelcomeViewController.swift */,
+				27BCC9601D2EEE50000AB219 /* LoginViewController.swift */,
+				27BCC9621D2EEE62000AB219 /* SignUpViewController.swift */,
+				2723FC881D3449AF0093F4AB /* resetPasswordVC.swift */,
+			);
+			name = Registration;
+			sourceTree = "<group>";
+		};
+		27BCC9651D33615E000AB219 /* VideoModel */ = {
+			isa = PBXGroup;
+			children = (
+				272D5B371D2ED41500569FF2 /* VideoCutter.swift */,
+				272D5B381D2ED41500569FF2 /* VideoSplashViewController.swift */,
+			);
+			name = VideoModel;
+			sourceTree = "<group>";
+		};
+		C7018BB71D7DFF2700CE2961 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				C7018BBE1D7E092700CE2961 /* ApiModels */,
+				C7018BB81D7DFF3300CE2961 /* DotaMateApi.swift */,
+				C7018BBA1D7DFFF100CE2961 /* DotaMateApiResources.swift */,
+				C7018BBC1D7E051300CE2961 /* AppService.swift */,
+			);
+			name = API;
+			sourceTree = "<group>";
+		};
+		C7018BBE1D7E092700CE2961 /* ApiModels */ = {
+			isa = PBXGroup;
+			children = (
+				C72834851D87315100103E83 /* DMAbilityUpgradesArr.swift */,
+				C72834861D87315100103E83 /* DMAbilityUses.swift */,
+				C72834881D87315100103E83 /* DMAdditionalUnits.swift */,
+				C72834891D87315100103E83 /* DMAllWordCounts.swift */,
+				C728348A1D87315100103E83 /* DMBenchmarks.swift */,
+				C728348B1D87315100103E83 /* DMBuybackLog.swift */,
+				C728348C1D87315100103E83 /* DMChat.swift */,
+				C728348E1D87315100103E83 /* DMDamage.swift */,
+				C728348F1D87315100103E83 /* DMDamageInflictor.swift */,
+				C72834901D87315100103E83 /* DMDamageInflictorReceived.swift */,
+				C72834911D87315100103E83 /* DMDamageTaken.swift */,
+				C72834921D87315100103E83 /* DMDnT.swift */,
+				C72834931D87315100103E83 /* DMFirstPurchaseTime.swift */,
+				C72834941D87315100103E83 /* DMGoldPerMin.swift */,
+				C72834961D87315100103E83 /* DMGoldT.swift */,
+				C72834971D87315100103E83 /* DMHeroDamagePerMin.swift */,
+				C72834981D87315100103E83 /* DMHeroes.swift */,
+				C72834991D87315100103E83 /* DMHeroesSteamAPI.swift */,
+				C728349A1D87315100103E83 /* DMHeroHealingPerMin.swift */,
+				C728349B1D87315100103E83 /* DMHeroHits.swift */,
+				C728349C1D87315100103E83 /* DMItems.swift */,
+				C728349D1D87315100103E83 /* DMItemsSteamAPI.swift */,
+				C728349E1D87315100103E83 /* DMItemUsage.swift */,
+				C728349F1D87315100103E83 /* DMItemUses.swift */,
+				C72834A01D87315100103E83 /* DMItemWin.swift */,
+				C72834A11D87315100103E83 /* DMKilled.swift */,
+				C72834A21D87315100103E83 /* DMKilledBy.swift */,
+				C72834A31D87315100103E83 /* DMKillsLog.swift */,
+				C72834A41D87315100103E83 /* DMKillsPerMin.swift */,
+				C72834A61D87315100103E83 /* DMLanePos.swift */,
+				C72834A71D87315100103E83 /* DMLastHitsPerMin.swift */,
+				C72834A81D87315100103E83 /* DMLhT.swift */,
+				C72834AA1D87315100103E83 /* DMMatch.swift */,
+				C76E6E7C1DA16414002529AE /* DMRecentMatch.swift */,
+				C72834AB1D87315100103E83 /* DMMaxHeroHit.swift */,
+				C72834AC1D87315100103E83 /* DMMmrEstimate.swift */,
+				C72834AE1D87315100103E83 /* DMMyWordCounts.swift */,
+				C72834AF1D87315100103E83 /* DMObjectives.swift */,
+				C72834B01D87315100103E83 /* DMObs.swift */,
+				C72834B11D87315100103E83 /* DMObsLeftLog.swift */,
+				C72834B21D87315100103E83 /* DMObsLog.swift */,
+				C72834B31D87315100103E83 /* DMPlayerProfile.swift */,
+				C72834B41D87315100103E83 /* DMPlayers.swift */,
+				C72834B51D87315100103E83 /* DMPosData.swift */,
+				C72834B61D87315100103E83 /* DMProfile.swift */,
+				C72834B71D87315100103E83 /* DMPurchase.swift */,
+				C72834B81D87315100103E83 /* DMPurchaseLog.swift */,
+				C72834B91D87315100103E83 /* DMPurchaseTime.swift */,
+				C72834BA1D87315100103E83 /* DMResult.swift */,
+				C72834BB1D87315100103E83 /* DMResultHero.swift */,
+				C72834BC1D87315100103E83 /* DMSenLeftLog.swift */,
+				C72834BD1D87315100103E83 /* DMSenLog.swift */,
+				C72834BE1D87315100103E83 /* DMSpecific.swift */,
+				C72834BF1D87315100103E83 /* DMTeamfights.swift */,
+				C72834C01D87315100103E83 /* DMTimes.swift */,
+				C72834C11D87315100103E83 /* DMTowerDamage.swift */,
+				C72834C21D87315100103E83 /* DMXpPerMin.swift */,
+				C72834C41D87315100103E83 /* DMXpT.swift */,
+				C7018BBF1D7E094200CE2961 /* ApiUser.swift */,
+				C7DAC5201D86249100393519 /* Match.swift */,
+				C7DAC5221D86252200393519 /* Player.swift */,
+			);
+			name = ApiModels;
+			sourceTree = "<group>";
+		};
+		C7018BC11D7E161200CE2961 /* UserSearch */ = {
+			isa = PBXGroup;
+			children = (
+				C7018BC41D7E175400CE2961 /* Cells */,
+				C7018BC21D7E162900CE2961 /* UserSearchTableViewController.swift */,
+			);
+			name = UserSearch;
+			sourceTree = "<group>";
+		};
+		C7018BC41D7E175400CE2961 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				C7018BC51D7E176600CE2961 /* UserSearchTableViewCell.swift */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		C728345A1D86373500103E83 /* MatchDetails */ = {
+			isa = PBXGroup;
+			children = (
+				C728345B1D86373D00103E83 /* Cells */,
+				C72834581D862E7B00103E83 /* MatchDetailsViewController.swift */,
+			);
+			name = MatchDetails;
+			sourceTree = "<group>";
+		};
+		C728345B1D86373D00103E83 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				C728345E1D863D6400103E83 /* MatchDetailsPlayerTableViewCell.swift */,
+				C728345F1D863D6400103E83 /* MatchDetailsPlayerTableViewCell.xib */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		C860E156C464BC39F1C76A60 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2700487E1D3687590076BC6B /* DotaMate-Bridging-Header.h */,
+				EBD11CC8FF81FBFB9ACA960A /* Pods_DotaMate.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		270FF53A1D2EB9B700E8F0AC /* DotaMate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 270FF54D1D2EB9B700E8F0AC /* Build configuration list for PBXNativeTarget "DotaMate" */;
+			buildPhases = (
+				36BD483D74B1FE1A48F16BF1 /* [CP] Check Pods Manifest.lock */,
+				270FF5371D2EB9B700E8F0AC /* Sources */,
+				270FF5381D2EB9B700E8F0AC /* Frameworks */,
+				270FF5391D2EB9B700E8F0AC /* Resources */,
+				E0B12F5F1A2C99A50B603AF6 /* [CP] Embed Pods Frameworks */,
+				81CEC0033E29F871D5AADCE1 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DotaMate;
+			productName = DotaMate;
+			productReference = 270FF53B1D2EB9B700E8F0AC /* DotaMate.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		270FF5331D2EB9B700E8F0AC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Yerbol Kopzhassar";
+				TargetAttributes = {
+					270FF53A1D2EB9B700E8F0AC = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = TNF7X5F6V5;
+						LastSwiftMigration = 0800;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 270FF5361D2EB9B700E8F0AC /* Build configuration list for PBXProject "DotaMate" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 270FF5321D2EB9B700E8F0AC;
+			productRefGroup = 270FF53C1D2EB9B700E8F0AC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				270FF53A1D2EB9B700E8F0AC /* DotaMate */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		270FF5391D2EB9B700E8F0AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				270048151D3676730076BC6B /* Bane.mp3 in Resources */,
+				2700487D1D3676730076BC6B /* Zeus.mp3 in Resources */,
+				2700481D1D3676730076BC6B /* Centaur Warrunner.mp3 in Resources */,
+				270048651D3676730076BC6B /* Storm Spirit.mp3 in Resources */,
+				270048691D3676730076BC6B /* Terrorblade.mp3 in Resources */,
+				270048661D3676730076BC6B /* Sven.mp3 in Resources */,
+				270048551D3676730076BC6B /* Pugna.mp3 in Resources */,
+				270048221D3676730076BC6B /* Crystal Maiden.mp3 in Resources */,
+				270048331D3676730076BC6B /* Invoker.mp3 in Resources */,
+				2700484E1D3676730076BC6B /* Oracle.mp3 in Resources */,
+				270048251D3676730076BC6B /* Death Prophet.mp3 in Resources */,
+				2700482E1D3676730076BC6B /* Enchantress.mp3 in Resources */,
+				270048391D3676730076BC6B /* Legion Commander.mp3 in Resources */,
+				270048201D3676730076BC6B /* Clinkz.mp3 in Resources */,
+				270048791D3676730076BC6B /* Windranger.mp3 in Resources */,
+				2700485E1D3676730076BC6B /* Silencer.mp3 in Resources */,
+				C72834611D863D6400103E83 /* MatchDetailsPlayerTableViewCell.xib in Resources */,
+				270048781D3676730076BC6B /* Weaver.mp3 in Resources */,
+				270048451D3676730076BC6B /* Mirana.mp3 in Resources */,
+				270048281D3676730076BC6B /* Dragon Knight.mp3 in Resources */,
+				2700481A1D3676730076BC6B /* Brewmaster.mp3 in Resources */,
+				2700480F1D3676730076BC6B /* Abaddon.mp3 in Resources */,
+				270048631D3676730076BC6B /* Spectre.mp3 in Resources */,
+				270048681D3676730076BC6B /* Templar Assassin.mp3 in Resources */,
+				2700482D1D3676730076BC6B /* Ember Spirit.mp3 in Resources */,
+				270048421D3676730076BC6B /* Magnus.mp3 in Resources */,
+				2700483B1D3676730076BC6B /* Lich.mp3 in Resources */,
+				2700485B1D3676730076BC6B /* Shadow Demon.mp3 in Resources */,
+				270048311D3676730076BC6B /* Gyrocopter.mp3 in Resources */,
+				270048291D3676730076BC6B /* Drow Ranger.mp3 in Resources */,
+				C747FF031D862C1F00896A24 /* PlayerProfile.storyboard in Resources */,
+				2700487A1D3676730076BC6B /* Winter Wyvern.mp3 in Resources */,
+				2700484C1D3676730076BC6B /* Ogre Magi.mp3 in Resources */,
+				270048621D3676730076BC6B /* Sniper.mp3 in Resources */,
+				270048371D3676730076BC6B /* Keeper of the Light.mp3 in Resources */,
+				270048751D3676730076BC6B /* Viper.mp3 in Resources */,
+				270048241D3676730076BC6B /* Dazzle.mp3 in Resources */,
+				2700481F1D3676730076BC6B /* Chen.mp3 in Resources */,
+				270048711D3676730076BC6B /* Undying.mp3 in Resources */,
+				270048641D3676730076BC6B /* Spirit Breaker.mp3 in Resources */,
+				270048501D3676730076BC6B /* Phantom Assassin.mp3 in Resources */,
+				2700484B1D3676730076BC6B /* Nyx Assassin.mp3 in Resources */,
+				270048481D3676730076BC6B /* Nature's Prophet.mp3 in Resources */,
+				2700486B1D3676730076BC6B /* Timbersaw.mp3 in Resources */,
+				270048611D3676730076BC6B /* Slark.mp3 in Resources */,
+				270048581D3676730076BC6B /* Riki.mp3 in Resources */,
+				270048121D3676730076BC6B /* Anti-Mage.mp3 in Resources */,
+				2700483C1D3676730076BC6B /* Lifestealer.mp3 in Resources */,
+				270048211D3676730076BC6B /* Clockwerk.mp3 in Resources */,
+				2700486D1D3676730076BC6B /* Tiny.mp3 in Resources */,
+				270048361D3676730076BC6B /* Juggernaut.mp3 in Resources */,
+				270048341D3676730076BC6B /* Io.mp3 in Resources */,
+				270048321D3676730076BC6B /* Huskar.mp3 in Resources */,
+				270048701D3676730076BC6B /* Tusk.mp3 in Resources */,
+				270454DC1D377FF400B7DA73 /* Main.storyboard in Resources */,
+				2700484F1D3676730076BC6B /* Outworld Devourer.mp3 in Resources */,
+				270048141D3676730076BC6B /* Axe.mp3 in Resources */,
+				270048601D3676730076BC6B /* Slardar.mp3 in Resources */,
+				2700482B1D3676730076BC6B /* Earthshaker.mp3 in Resources */,
+				2700482C1D3676730076BC6B /* Elder Titan.mp3 in Resources */,
+				270048761D3676730076BC6B /* Visage.mp3 in Resources */,
+				2700485F1D3676730076BC6B /* Skywrath Mage.mp3 in Resources */,
+				2700482A1D3676730076BC6B /* Earth Spirit.mp3 in Resources */,
+				270048131D3676730076BC6B /* Arc Warden.mp3 in Resources */,
+				270048191D3676730076BC6B /* Bounty Hunter.mp3 in Resources */,
+				270048101D3676730076BC6B /* Alchemist.mp3 in Resources */,
+				270048521D3676730076BC6B /* Phoenix.mp3 in Resources */,
+				2700484A1D3676730076BC6B /* Night Stalker.mp3 in Resources */,
+				270048731D3676730076BC6B /* Vengeful Spirit.mp3 in Resources */,
+				2700486C1D3676730076BC6B /* Tinker.mp3 in Resources */,
+				270048771D3676730076BC6B /* Warlock.mp3 in Resources */,
+				270048671D3676730076BC6B /* Techies.mp3 in Resources */,
+				2700485D1D3676730076BC6B /* Shadow Shaman.mp3 in Resources */,
+				270048401D3676730076BC6B /* Luna.mp3 in Resources */,
+				270048261D3676730076BC6B /* Disruptor.mp3 in Resources */,
+				2700480E1D3676730076BC6B /* .DS_Store in Resources */,
+				270048461D3676730076BC6B /* Morphling.mp3 in Resources */,
+				2700483A1D3676730076BC6B /* Leshrac.mp3 in Resources */,
+				270048531D3676730076BC6B /* Puck.mp3 in Resources */,
+				270048301D3676730076BC6B /* Faceless Void.mp3 in Resources */,
+				2700486E1D3676730076BC6B /* Treant Protector.mp3 in Resources */,
+				2700484D1D3676730076BC6B /* Omniknight.mp3 in Resources */,
+				2700488E1D36EAD50076BC6B /* items.json in Resources */,
+				2700481C1D3676730076BC6B /* Broodmother.mp3 in Resources */,
+				2700483E1D3676730076BC6B /* Lion.mp3 in Resources */,
+				270048161D3676730076BC6B /* Batrider.mp3 in Resources */,
+				2700483D1D3676730076BC6B /* Lina.mp3 in Resources */,
+				270048541D3676730076BC6B /* Pudge.mp3 in Resources */,
+				2700487B1D3676730076BC6B /* Witch Doctor.mp3 in Resources */,
+				270048511D3676730076BC6B /* Phantom Lancer.mp3 in Resources */,
+				2700483F1D3676730076BC6B /* Lone Druid.mp3 in Resources */,
+				270048351D3676730076BC6B /* Jakiro.mp3 in Resources */,
+				2700485A1D3676730076BC6B /* Sand King.mp3 in Resources */,
+				2700486F1D3676730076BC6B /* Troll Warlord.mp3 in Resources */,
+				2738BB6B1D3ED15D005ED2D2 /* 8291.ttf in Resources */,
+				272D5B391D2ED41500569FF2 /* moments.mp4 in Resources */,
+				2700486A1D3676730076BC6B /* Tidehunter.mp3 in Resources */,
+				270048171D3676730076BC6B /* Beastmaster.mp3 in Resources */,
+				270048561D3676730076BC6B /* Queen of Pain.mp3 in Resources */,
+				270048381D3676730076BC6B /* Kunkka.mp3 in Resources */,
+				270048411D3676730076BC6B /* Lycan.mp3 in Resources */,
+				2700481E1D3676730076BC6B /* Chaos Knight.mp3 in Resources */,
+				270048571D3676730076BC6B /* Razor.mp3 in Resources */,
+				270048441D3676730076BC6B /* Meepo.mp3 in Resources */,
+				270048111D3676730076BC6B /* Ancient Apparition.mp3 in Resources */,
+				270FF5491D2EB9B700E8F0AC /* LaunchScreen.storyboard in Resources */,
+				270048431D3676730076BC6B /* Medusa.mp3 in Resources */,
+				2700485C1D3676730076BC6B /* Shadow Fiend.mp3 in Resources */,
+				27683ADE1D54A87700220C46 /* GoogleService-Info.plist in Resources */,
+				2700481B1D3676730076BC6B /* Bristleback.mp3 in Resources */,
+				270048591D3676730076BC6B /* Rubick.mp3 in Resources */,
+				2700482F1D3676730076BC6B /* Enigma.mp3 in Resources */,
+				270FF5461D2EB9B700E8F0AC /* Assets.xcassets in Resources */,
+				270048471D3676730076BC6B /* Naga Siren.mp3 in Resources */,
+				270048491D3676730076BC6B /* Necrophos.mp3 in Resources */,
+				270048271D3676730076BC6B /* Doom.mp3 in Resources */,
+				2700487C1D3676730076BC6B /* Wraith King.mp3 in Resources */,
+				270048721D3676730076BC6B /* Ursa.mp3 in Resources */,
+				270048231D3676730076BC6B /* Dark Seer.mp3 in Resources */,
+				270048181D3676730076BC6B /* Bloodseeker.mp3 in Resources */,
+				270048741D3676730076BC6B /* Venomancer.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		36BD483D74B1FE1A48F16BF1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		81CEC0033E29F871D5AADCE1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DotaMate/Pods-DotaMate-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E0B12F5F1A2C99A50B603AF6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DotaMate/Pods-DotaMate-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		270FF5371D2EB9B700E8F0AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27CEB4EE1D4AB2740071FDB4 /* ImageCache.swift in Sources */,
+				C72834E81D87315100103E83 /* DMLhT.swift in Sources */,
+				C72834E31D87315100103E83 /* DMKillsLog.swift in Sources */,
+				C72834E21D87315100103E83 /* DMKilledBy.swift in Sources */,
+				C72834EF1D87315100103E83 /* DMObjectives.swift in Sources */,
+				27BCC9631D2EEE62000AB219 /* SignUpViewController.swift in Sources */,
+				270047961D3563E80076BC6B /* HeroChooseCVC.swift in Sources */,
+				C72834D11D87315100103E83 /* DMDamageTaken.swift in Sources */,
+				273453F81D42141100614F22 /* BlurImage.swift in Sources */,
+				C72834CF1D87315100103E83 /* DMDamageInflictor.swift in Sources */,
+				C7DAC5231D86252200393519 /* Player.swift in Sources */,
+				C72834CB1D87315100103E83 /* DMBuybackLog.swift in Sources */,
+				C72834FE1D87315100103E83 /* DMSpecific.swift in Sources */,
+				273453FA1D4218C200614F22 /* User.swift in Sources */,
+				C72834F61D87315100103E83 /* DMProfile.swift in Sources */,
+				27004A511D3718080076BC6B /* ItemChooseCollectionVC.swift in Sources */,
+				C72834F11D87315100103E83 /* DMObsLeftLog.swift in Sources */,
+				2700488C1D36E1BD0076BC6B /* Item.swift in Sources */,
+				273453FC1D421AF400614F22 /* Constants.swift in Sources */,
+				C72834591D862E7B00103E83 /* MatchDetailsViewController.swift in Sources */,
+				270454DE1D3C504300B7DA73 /* NavVC.swift in Sources */,
+				2714E07E1D3375FB00CF38DB /* GuideTableViewCell.swift in Sources */,
+				C72834FC1D87315100103E83 /* DMSenLeftLog.swift in Sources */,
+				270454E01D3C510E00B7DA73 /* TabBarVC.swift in Sources */,
+				C72834F71D87315100103E83 /* DMPurchase.swift in Sources */,
+				C72834DA1D87315100103E83 /* DMHeroHealingPerMin.swift in Sources */,
+				C72834D81D87315100103E83 /* DMHeroes.swift in Sources */,
+				C72834F81D87315100103E83 /* DMPurchaseLog.swift in Sources */,
+				C72834DD1D87315100103E83 /* DMItemsSteamAPI.swift in Sources */,
+				C779F58C1DA0C2D000A59F00 /* OutlinedText.swift in Sources */,
+				C72834D91D87315100103E83 /* DMHeroesSteamAPI.swift in Sources */,
+				2710F42E1D3C6E4800A25BC8 /* GuideObserveItemCVC.swift in Sources */,
+				C72834C61D87315100103E83 /* DMAbilityUses.swift in Sources */,
+				C72834E71D87315100103E83 /* DMLastHitsPerMin.swift in Sources */,
+				C72834E41D87315100103E83 /* DMKillsPerMin.swift in Sources */,
+				27D41B511D4E848C001E2705 /* TimerViewController.swift in Sources */,
+				C72834F31D87315100103E83 /* DMPlayerProfile.swift in Sources */,
+				C72834C81D87315100103E83 /* DMAdditionalUnits.swift in Sources */,
+				2710F42A1D3C67A600A25BC8 /* GuideObserveVC.swift in Sources */,
+				272D5B3A1D2ED41500569FF2 /* VideoCutter.swift in Sources */,
+				C72834E11D87315100103E83 /* DMKilled.swift in Sources */,
+				C72834D01D87315100103E83 /* DMDamageInflictorReceived.swift in Sources */,
+				270048911D36F5E80076BC6B /* ItemCVC.swift in Sources */,
+				C72834E01D87315100103E83 /* DMItemWin.swift in Sources */,
+				2723FC8B1D34BA700093F4AB /* ProfileViewController.swift in Sources */,
+				C72834CA1D87315100103E83 /* DMBenchmarks.swift in Sources */,
+				2723FC891D3449AF0093F4AB /* resetPasswordVC.swift in Sources */,
+				C72834D71D87315100103E83 /* DMHeroDamagePerMin.swift in Sources */,
+				2700479C1D364B5C0076BC6B /* HeroDetail.swift in Sources */,
+				C7018BC31D7E162900CE2961 /* UserSearchTableViewController.swift in Sources */,
+				C72834FF1D87315100103E83 /* DMTeamfights.swift in Sources */,
+				C72834F91D87315100103E83 /* DMPurchaseTime.swift in Sources */,
+				270047981D3643B80076BC6B /* GuideMakerViewController.swift in Sources */,
+				27F53F321D418A50009368D9 /* CircleView.swift in Sources */,
+				C72834DC1D87315100103E83 /* DMItems.swift in Sources */,
+				2723FC8D1D34BA950093F4AB /* headerForProfileV.swift in Sources */,
+				270FF5411D2EB9B700E8F0AC /* WelcomeViewController.swift in Sources */,
+				270047921D350C330076BC6B /* HeroChooseVC.swift in Sources */,
+				C72834FA1D87315100103E83 /* DMResult.swift in Sources */,
+				2714E0841D33A47200CF38DB /* Hero.swift in Sources */,
+				C7018BBB1D7DFFF100CE2961 /* DotaMateApiResources.swift in Sources */,
+				C72834CE1D87315100103E83 /* DMDamage.swift in Sources */,
+				2700479A1D364A5E0076BC6B /* SpellTVC.swift in Sources */,
+				C72834601D863D6400103E83 /* MatchDetailsPlayerTableViewCell.swift in Sources */,
+				C72834F51D87315100103E83 /* DMPosData.swift in Sources */,
+				C72834F01D87315100103E83 /* DMObs.swift in Sources */,
+				270FF53F1D2EB9B700E8F0AC /* AppDelegate.swift in Sources */,
+				C72834DB1D87315100103E83 /* DMHeroHits.swift in Sources */,
+				C72834D61D87315100103E83 /* DMGoldT.swift in Sources */,
+				C72834EB1D87315100103E83 /* DMMaxHeroHit.swift in Sources */,
+				C72834DF1D87315100103E83 /* DMItemUses.swift in Sources */,
+				C72835021D87315100103E83 /* DMXpPerMin.swift in Sources */,
+				C72835001D87315100103E83 /* DMTimes.swift in Sources */,
+				C72834DE1D87315100103E83 /* DMItemUsage.swift in Sources */,
+				C72834EA1D87315100103E83 /* DMMatch.swift in Sources */,
+				C72834C51D87315100103E83 /* DMAbilityUpgradesArr.swift in Sources */,
+				2714E0821D33A43700CF38DB /* Guide.swift in Sources */,
+				C76E6E7D1DA16414002529AE /* DMRecentMatch.swift in Sources */,
+				C72834C91D87315100103E83 /* DMAllWordCounts.swift in Sources */,
+				C72835041D87315100103E83 /* DMXpT.swift in Sources */,
+				C7018BBD1D7E051300CE2961 /* AppService.swift in Sources */,
+				C72834F21D87315100103E83 /* DMObsLog.swift in Sources */,
+				C7018BB91D7DFF3300CE2961 /* DotaMateApi.swift in Sources */,
+				C7C216331DA0BB4100332388 /* UIColorFromHexExtension.swift in Sources */,
+				C72834EE1D87315100103E83 /* DMMyWordCounts.swift in Sources */,
+				C7DAC5211D86249100393519 /* Match.swift in Sources */,
+				C7018BC61D7E176600CE2961 /* UserSearchTableViewCell.swift in Sources */,
+				C7018BC01D7E094200CE2961 /* ApiUser.swift in Sources */,
+				C72834D41D87315100103E83 /* DMGoldPerMin.swift in Sources */,
+				C72834D21D87315100103E83 /* DMDnT.swift in Sources */,
+				C72834FB1D87315100103E83 /* DMResultHero.swift in Sources */,
+				C72834F41D87315100103E83 /* DMPlayers.swift in Sources */,
+				27BCC9611D2EEE50000AB219 /* LoginViewController.swift in Sources */,
+				C72834EC1D87315100103E83 /* DMMmrEstimate.swift in Sources */,
+				272D5B3B1D2ED41500569FF2 /* VideoSplashViewController.swift in Sources */,
+				2710F42C1D3C6E2400A25BC8 /* GuideObserveSpellTVC.swift in Sources */,
+				C72834CC1D87315100103E83 /* DMChat.swift in Sources */,
+				273453FE1D4223DD00614F22 /* Like.swift in Sources */,
+				27004A531D37184A0076BC6B /* ItemWithCellCVC.swift in Sources */,
+				C72834FD1D87315100103E83 /* DMSenLog.swift in Sources */,
+				2710F4301D3C713C00A25BC8 /* GuideCVC.swift in Sources */,
+				C72834D31D87315100103E83 /* DMFirstPurchaseTime.swift in Sources */,
+				C72834E61D87315100103E83 /* DMLanePos.swift in Sources */,
+				C72835011D87315100103E83 /* DMTowerDamage.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		270454DA1D377FF400B7DA73 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				270454DB1D377FF400B7DA73 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		270FF5471D2EB9B700E8F0AC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				270FF5481D2EB9B700E8F0AC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		270FF54B1D2EB9B700E8F0AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		270FF54C1D2EB9B700E8F0AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		270FF54E1D2EB9B700E8F0AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F212C82F9DD0990F0890FA2 /* Pods-DotaMate.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = TNF7X5F6V5;
+				INFOPLIST_FILE = DotaMate/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.PDesJean.DotaMate;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "DotaMate/DotaMate-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		270FF54F1D2EB9B700E8F0AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 172DA08D66DC5D5233568EE4 /* Pods-DotaMate.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = TNF7X5F6V5;
+				INFOPLIST_FILE = DotaMate/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.PDesJean.DotaMate;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "DotaMate/DotaMate-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		270FF5361D2EB9B700E8F0AC /* Build configuration list for PBXProject "DotaMate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				270FF54B1D2EB9B700E8F0AC /* Debug */,
+				270FF54C1D2EB9B700E8F0AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		270FF54D1D2EB9B700E8F0AC /* Build configuration list for PBXNativeTarget "DotaMate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				270FF54E1D2EB9B700E8F0AC /* Debug */,
+				270FF54F1D2EB9B700E8F0AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 270FF5331D2EB9B700E8F0AC /* Project object */;
+}

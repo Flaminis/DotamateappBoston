@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="i8u-Xp-yGO">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--Match Details View Controller-->
+        <scene sceneID="SMO-OX-bXH">
+            <objects>
+                <viewController storyboardIdentifier="matchDetailsView" automaticallyAdjustsScrollViewInsets="NO" id="R6h-OE-KaE" customClass="MatchDetailsViewController" customModule="DotaMate" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Piw-RR-q4b"/>
+                        <viewControllerLayoutGuide type="bottom" id="yhD-vp-6Rq"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="nc0-6v-tnA">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="100" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="6uL-Pb-T2c">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="R6h-OE-KaE" id="ofV-ls-Xwc"/>
+                                    <outlet property="delegate" destination="R6h-OE-KaE" id="3WM-oW-twH"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="yhD-vp-6Rq" firstAttribute="top" secondItem="6uL-Pb-T2c" secondAttribute="bottom" id="4k6-zm-Fsy"/>
+                            <constraint firstItem="6uL-Pb-T2c" firstAttribute="leading" secondItem="nc0-6v-tnA" secondAttribute="leadingMargin" constant="-20" id="6CR-Pa-2YO"/>
+                            <constraint firstItem="6uL-Pb-T2c" firstAttribute="top" secondItem="nc0-6v-tnA" secondAttribute="topMargin" id="S9B-AO-kmf">
+                                <variation key="widthClass=compact" constant="64"/>
+                            </constraint>
+                            <constraint firstAttribute="trailingMargin" secondItem="6uL-Pb-T2c" secondAttribute="trailing" constant="-20" id="uDQ-up-JOT"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="6CR-Pa-2YO"/>
+                                <exclude reference="S9B-AO-kmf"/>
+                                <exclude reference="uDQ-up-JOT"/>
+                                <exclude reference="4k6-zm-Fsy"/>
+                            </mask>
+                        </variation>
+                        <variation key="widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="6uL-Pb-T2c"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="6CR-Pa-2YO"/>
+                                <include reference="S9B-AO-kmf"/>
+                                <include reference="uDQ-up-JOT"/>
+                                <include reference="4k6-zm-Fsy"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <navigationItem key="navigationItem" id="kn6-X1-G6W"/>
+                    <connections>
+                        <outlet property="tableView" destination="6uL-Pb-T2c" id="vj7-Ot-shD"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="B3p-sb-VYW" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1777.5" y="-359"/>
+        </scene>
+        <!--NavVC-->
+        <scene sceneID="8ki-iZ-hKS">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="i8u-Xp-yGO" customClass="NavVC" customModule="DotaMate" customModuleProvider="target" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="CA3-OD-tPm">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="R6h-OE-KaE" kind="relationship" relationship="rootViewController" id="aeM-SL-hri"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Jm5-cw-BxE" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="859.5" y="-359"/>
+        </scene>
+    </scenes>
+</document>
